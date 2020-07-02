@@ -1,0 +1,77 @@
+/**
+ * Project: Assignment2
+ * File: InventoryListDialog.java
+ * Date: Jun 30, 2017
+ * Time: 12:39:30 AM
+ */
+
+package a00904649.ui;
+
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+import java.util.List;
+
+import javax.swing.JDialog;
+import javax.swing.JList;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.ListSelectionModel;
+import javax.swing.border.EmptyBorder;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import a00904649.Bcmc;
+import a00904649.data.Inventory;
+import a00904649.database.dao.InventoryDao;
+
+/**
+ * @author Yoonho(Daniel) Kim A00904649
+ *
+ */
+@SuppressWarnings("serial")
+public class InventoryListDialog extends JDialog {
+	private static final Logger LOG = LogManager.getLogger(Bcmc.class);
+	private InventoryListModel inventoryModel;
+	private JList<InventoryListItem> inventoryList;
+	private final JPanel contentPanel = new JPanel();
+
+	/**
+	 * Create the dialog.
+	 */
+	public InventoryListDialog() {
+		setBounds(100, 100, 450, 300);
+		getContentPane().setLayout(new BorderLayout());
+		contentPanel.setLayout(new FlowLayout());
+		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+		getContentPane().add(contentPanel, BorderLayout.CENTER);
+		inventoryModel = new InventoryListModel();
+		inventoryList = new JList<>(inventoryModel);
+		inventoryList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		add(new JScrollPane(inventoryList));
+
+	}
+
+	public void addEventHandlers() {
+		new UiController();
+		inventoryList.getSelectionModel().addListSelectionListener(new UiController.InventoryListSelectionHandler(inventoryList));
+	}
+
+	/**
+	 * set the data
+	 */
+	public void setData() {
+		LOG.debug("setData");
+		try {
+			InventoryDao inventoryDao = InventoryDao.getTheinstance();
+			List<String> ids = inventoryDao.getID();
+			for (String id : ids) {
+				Inventory inventory = inventoryDao.getInventory(id);
+				inventoryModel.add(inventory);
+			}
+		} catch (Exception e) {
+			UiController.handle(e);
+		}
+	}
+
+}

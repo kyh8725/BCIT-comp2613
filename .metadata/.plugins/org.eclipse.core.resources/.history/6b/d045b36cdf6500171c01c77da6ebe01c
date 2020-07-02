@@ -1,0 +1,102 @@
+package a00904649;
+
+import java.awt.EventQueue;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+@SuppressWarnings("serial")
+public class B2 extends JFrame {
+
+	private JPanel contentPane;
+	private JButton btnMoveMe;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		run();
+	}
+
+	private static void run() {
+		EventQueue.invokeLater(new Runnable() {
+			@Override
+			public void run() {
+				try {
+					B2 frame = new B2(b2);
+					frame.setVisible(true);
+
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public B2(B2sub b2) {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 300, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+
+		JButton btnX = new JButton("x1");
+		btnX.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				btnMoveMe.setBounds(btnMoveMe.getX() + 1, btnMoveMe.getY(), 100, 30);
+				B2sub.setX(btnMoveMe.getX());
+			}
+		});
+		btnX.setBounds(10, 11, 59, 23);
+		contentPane.add(btnX);
+
+		JButton btnX_1 = new JButton("x10");
+		btnX_1.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+
+				btnMoveMe.setBounds(btnMoveMe.getX() + 10, btnMoveMe.getY(), 100, 30);
+				B2sub.setX(btnMoveMe.getX());
+			}
+		});
+		btnX_1.setBounds(79, 11, 59, 23);
+		contentPane.add(btnX_1);
+
+		JButton btnY = new JButton("y1");
+		btnY.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				yP = btnMoveMe.getY() + 1;
+				btnMoveMe.setBounds(btnMoveMe.getX(), yP, 100, 30);
+				B2sub.setY(btnMoveMe.getY());
+			}
+		});
+		btnY.setBounds(148, 11, 59, 23);
+		contentPane.add(btnY);
+
+		JButton btnY_1 = new JButton("y10");
+		btnY_1.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				yP = btnMoveMe.getY() + 10;
+				btnMoveMe.setBounds(btnMoveMe.getX(), yP, 100, 30);
+				B2sub.setY(btnMoveMe.getY());
+			}
+		});
+		btnY_1.setBounds(215, 11, 59, 23);
+		contentPane.add(btnY_1);
+		btnMoveMe = new JButton("Move me!");
+		btnMoveMe.setBounds(B2sub.getX(), B2sub.getY(), 100, 30);
+		contentPane.add(btnMoveMe);
+	}
+
+}

@@ -1,0 +1,17 @@
+/**
+ * Project: Lab08
+ * File: CompareByResult.java
+ * Date: Jun 3, 2017
+ * Time: 2:10:12 AM
+ */
+
+package a00904649.data.util;
+
+/**
+ * @author Yoonho(Daniel) Kim A00904649
+ *
+ */
+public class CompareByResult implements Comparator<Runners>{
+
+	
+}

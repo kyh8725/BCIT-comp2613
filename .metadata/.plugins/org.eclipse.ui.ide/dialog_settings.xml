@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lecture\7 Properties, Database\examples7"/>
+		<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lecture\2 Core Classes, Jars, Intro to Inner Classes and Design Patterns\examples2"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Administrator\Desktop\A00904649Final"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lectures\11 Network\examples11"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lectures\10 MVC, Singleton\examples10"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lectures\8 Multithreading\examples8"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lecture\8 Multithreading\examples8"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lecture\7 Properties, Database\examples7"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lecture\4 Generics, Collections, Sorting\examples4"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lecture\1 IDE, CommandLine, Packages\examples1"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Assignments\Labs Assi shit\SecondAssignment"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lecture\9 GUI, Inner classes, Events\examples9"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Assignments\Labs Assi shit\Lab9"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lecture\9 GUI, Inner classes, Events\work9"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lecture\9 GUI, Inner classes, Events\SwingDemo"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Labs\A00123456Lab7"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Assignments\Labs Assi shit\Lab7"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Assignments\Labs Assi shit\FirstAssignment"/>
+			<item value="C:\Users\Administrator\Desktop\Labs Assi shit\FirstAssignment"/>
+			<item value="C:\Users\Administrator\Desktop\FirstAssignment"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Lecture\5 File IO, Using Jars, Logging\examples5"/>
+			<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Labs\A00123456Lab4Set"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="C:\Users\Administrator\Desktop\BCIT\comp2613\Labs" key="OUTSIDE_LOCATION"/>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="660" key="DIALOG_X_ORIGIN"/>
+		<item value="341" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

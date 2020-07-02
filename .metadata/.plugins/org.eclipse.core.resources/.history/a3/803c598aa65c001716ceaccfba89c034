@@ -1,0 +1,132 @@
+/**
+ * Project: Assignment2
+ * File: InventoryDialog.java
+ * Date: Jun 21, 2017
+ * Time: 7:27:28 PM
+ */
+
+package a00904649.ui;
+
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
+
+import a00904649.data.Inventory;
+import net.miginfocom.swing.MigLayout;
+
+/**
+ * @author Yoonho(Daniel) Kim A00904649
+ *
+ */
+@SuppressWarnings("serial")
+public class InventoryDialog extends JDialog {
+
+	private final JPanel contentPanel = new JPanel();
+	private JTextField MotorcycleIDTextField;
+	private JTextField DescriptionTextField;
+	private JTextField PartNumberTextField;
+	private JTextField PriceTextField;
+	private JTextField QuantityTextField;
+
+	/**
+	 * Create the dialog.
+	 */
+	public InventoryDialog() {
+		setBounds(100, 100, 462, 231);
+		getContentPane().setLayout(new BorderLayout());
+		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+		getContentPane().add(contentPanel, BorderLayout.CENTER);
+		contentPanel.setLayout(new MigLayout("", "[][grow]", "[][][][][]"));
+		{
+			JLabel lblMotorcycleId = new JLabel("Motorcycle ID");
+			contentPanel.add(lblMotorcycleId, "cell 0 0,alignx trailing");
+		}
+		{
+			MotorcycleIDTextField = new JTextField();
+			MotorcycleIDTextField.setEnabled(false);
+			MotorcycleIDTextField.setEditable(false);
+			contentPanel.add(MotorcycleIDTextField, "cell 1 0,growx");
+			MotorcycleIDTextField.setColumns(10);
+		}
+		{
+			JLabel lblDescription = new JLabel("Description");
+			contentPanel.add(lblDescription, "cell 0 1,alignx trailing");
+		}
+		{
+			DescriptionTextField = new JTextField();
+			contentPanel.add(DescriptionTextField, "cell 1 1,growx");
+			DescriptionTextField.setColumns(10);
+		}
+		{
+			JLabel lblPart = new JLabel("Part #");
+			contentPanel.add(lblPart, "cell 0 2,alignx trailing");
+		}
+		{
+			PartNumberTextField = new JTextField();
+			contentPanel.add(PartNumberTextField, "cell 1 2,growx");
+			PartNumberTextField.setColumns(10);
+		}
+		{
+			JLabel lblPrice = new JLabel("Price");
+			contentPanel.add(lblPrice, "cell 0 3,alignx trailing");
+		}
+		{
+			PriceTextField = new JTextField();
+			contentPanel.add(PriceTextField, "cell 1 3,growx");
+			PriceTextField.setColumns(10);
+		}
+		{
+			JLabel lblQuantity = new JLabel("Quantity");
+			contentPanel.add(lblQuantity, "cell 0 4,alignx trailing");
+		}
+		{
+			QuantityTextField = new JTextField();
+			contentPanel.add(QuantityTextField, "cell 1 4,growx");
+			QuantityTextField.setColumns(10);
+		}
+		{
+			JPanel buttonPane = new JPanel();
+			buttonPane.setLayout(new FlowLayout(FlowLayout.RIGHT));
+			getContentPane().add(buttonPane, BorderLayout.SOUTH);
+			{
+				JButton okButton = new JButton("OK");
+				okButton.addActionListener(new ActionListener() {
+					@Override
+					public void actionPerformed(ActionEvent e) {
+						InventoryDialog invendialog = new InventoryDialog();
+					}
+				});
+				okButton.setActionCommand("OK");
+				buttonPane.add(okButton);
+				getRootPane().setDefaultButton(okButton);
+			}
+			{
+				JButton cancelButton = new JButton("Cancel");
+				cancelButton.addActionListener(new ActionListener() {
+					@Override
+					public void actionPerformed(ActionEvent e) {
+						dispose();
+					}
+				});
+				cancelButton.setActionCommand("Cancel");
+				buttonPane.add(cancelButton);
+			}
+		}
+	}
+
+	public void setInventory(Inventory inventory) {
+		MotorcycleIDTextField.setText(inventory.getId());
+		DescriptionTextField.setText(inventory.getDescription());
+		PartNumberTextField.setText(inventory.getPartNumber());
+		PriceTextField.setText(String.valueOf(inventory.getPrice() * 100));
+		QuantityTextField.setText(String.valueOf(inventory.getQuantity()));
+	}
+}

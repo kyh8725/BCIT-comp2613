@@ -1,0 +1,26 @@
+2017-06-28 23:17:43.005 [main] DEBUG a00904649.Lab9Option - Lab7 Options created
+2017-06-28 23:17:43.010 [main] DEBUG a00904649.database.Database - Loading database properties from db.properties
+2017-06-28 23:17:43.150 [main] DEBUG a00904649.database.Database - Driver loaded
+2017-06-28 23:17:43.315 [main] DEBUG a00904649.database.Database - Database connected
+2017-06-28 23:17:43.487 [main] DEBUG a00904649.database.Database - Found the target table named: Customer
+2017-06-28 23:17:46.865 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '1'
+2017-06-28 23:17:49.944 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '5'
+2017-06-28 23:17:52.362 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '5'
+2017-06-28 23:17:54.873 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '4'
+2017-07-03 13:59:10.116 [main] DEBUG a00904649.Lab9Option - Lab7 Options created
+2017-07-03 13:59:10.121 [main] DEBUG a00904649.database.Database - Loading database properties from db.properties
+2017-07-03 13:59:10.245 [main] DEBUG a00904649.database.Database - Driver loaded
+2017-07-03 13:59:10.402 [main] DEBUG a00904649.database.Database - Database connected
+2017-07-03 13:59:10.573 [main] DEBUG a00904649.database.Database - Found the target table named: Customer
+2017-07-03 13:59:18.586 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '3'
+2017-07-03 13:59:21.983 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '4'
+2017-07-03 13:59:26.882 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '1'
+2017-07-03 13:59:31.238 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '5'
+2017-12-22 11:19:50.841 [main] DEBUG a00904649.Lab9Option - Lab7 Options created
+2017-12-22 11:19:50.844 [main] DEBUG a00904649.database.Database - Loading database properties from db.properties
+2017-12-22 11:19:50.973 [main] DEBUG a00904649.database.Database - Driver loaded
+2017-12-22 11:19:51.130 [main] DEBUG a00904649.database.Database - Database connected
+2017-12-22 11:19:51.323 [main] DEBUG a00904649.database.Database - Found the target table named: Customer
+2017-12-22 11:19:55.188 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '5'
+2017-12-22 11:20:03.231 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '3'
+2017-12-22 11:20:06.507 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '5'

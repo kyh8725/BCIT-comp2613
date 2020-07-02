@@ -1,0 +1,23 @@
+package a00904649;
+
+public class B2sub {
+	
+	public static int x;
+	public static int y;
+	
+	public static int getX() {
+		return x;
+	}
+	public static void setX(int x) {
+		B2sub.x = x;
+	}
+	public static int getY() {
+		return y;
+	}
+	public static void setY(int y) {
+		B2sub.y = y;
+	}
+	
+
+	
+}

@@ -1,0 +1,90 @@
+/**
+ * Project: Assignment2
+ * File: InventoryListDialog.java
+ * Date: Jun 21, 2017
+ * Time: 7:27:16 PM
+ */
+
+package a00904649.ui;
+
+import java.awt.FlowLayout;
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.JScrollPane;
+import javax.swing.UIManager;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import a00904649.Bcmc;
+import a00904649.data.Inventory;
+
+/**
+ * @author Yoonho(Daniel) Kim A00904649
+ *
+ */
+@SuppressWarnings("serial")
+public class InventoryListDialog extends JDialog {
+
+	private static final Logger LOG = LogManager.getLogger(Bcmc.class);
+	private static List<Inventory> inventoryTemp;
+	private static Inventory[] inven;
+
+	/**
+	 * Create the dialog.
+	 * 
+	 * @throws SQLException
+	 */
+	public InventoryListDialog() throws SQLException {
+		setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+		setBounds(100, 100, 250, 450);
+		getContentPane().setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+		JLabel label = new JLabel();
+		label.setText("Inventory Part Number");
+		getContentPane().add(label);
+		loadInventoryArray();
+		JList<String> list = new JList<>(inven);
+		list.setBackground(UIManager.getColor("Button.background"));
+		list.setVisibleRowCount(20);
+		list.addListSelectionListener(new ListSelectionListener() {
+			@Override
+			public void valueChanged(ListSelectionEvent event) {
+				InventoryDialog inventoryDialog = new InventoryDialog();
+				inventoryDialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+				inventoryDialog.setModal(true);
+				try {
+					inventoryDialog.setInventory(Bcmc.inventoryDao.getInventory(list.getSelectedValue()));
+					LOG.debug(String.format("Details of item with part number %s is displayed.", list.getSelectedValue()));
+				} catch (Exception e) {
+					e.getMessage();
+				}
+				inventoryDialog.setVisible(true);
+			}
+		});
+		getContentPane().add(list);
+		add(new JScrollPane(list));
+	}
+
+	private static void loadInventoryArray() throws Exception {
+		String[] invenTemp = Bcmc.inventoryDao.getPartNumber().toArray(new String[Bcmc.inventoryDao.getPartNumber().size()]);
+		for (int i = 0; i <= invenTemp.length; i++) {
+			inven[i] = Bcmc.inventoryDao.getInventory(invenTemp[i]);
+		}
+
+	}
+
+	private static void getDBInventory() throws Exception {
+		List<String> partNumberTemp = Bcmc.inventoryDao.getPartNumber();
+		while (partNumberTemp.iterator().hasNext()) {
+			String partNumber = partNumberTemp.iterator().next();
+			Bcmc.inventoryDao.getInventory(partNumber);
+
+		}
+	}
+}

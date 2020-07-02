@@ -1,0 +1,71 @@
+2017-06-10 12:27:32.592 [main] DEBUG a00904649.Lab9Option - Lab7 Options created
+2017-06-10 12:27:32.592 [main] DEBUG a00904649.database.Database - Loading database properties from db.properties
+2017-06-10 12:27:32.808 [main] DEBUG a00904649.database.Database - Driver loaded
+2017-06-10 12:27:34.543 [main] DEBUG a00904649.database.Database - Database connected
+2017-06-10 12:27:35.182 [main] DEBUG a00904649.database.dao.CustomerDao - create table Customer(id VARCHAR(10), fisrtName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(30), city VARCHAR(30), postalCode VARCHAR(10), phone VARCHAR(20), emailAddress VARCHAR(30), joinedDate DATE, primary key (id) )
+2017-06-10 12:27:35.182 [main] DEBUG a00904649.database.dao.Dao - create table Customer(id VARCHAR(10), fisrtName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(30), city VARCHAR(30), postalCode VARCHAR(10), phone VARCHAR(20), emailAddress VARCHAR(30), joinedDate DATE, primary key (id) )
+2017-06-10 12:27:35.214 [main] DEBUG a00904649.Lab9 - Inserting the customers
+2017-06-10 12:27:35.214 [main] DEBUG a00904649.io.CustomerReader - Reading customer data from customers.txt
+2017-06-10 12:27:35.263 [main] DEBUG a00904649.io.CustomerReader - Customers with ID 1 created
+2017-06-10 12:27:35.263 [main] DEBUG a00904649.io.CustomerReader - Customers with ID 2 created
+2017-06-10 12:27:35.263 [main] DEBUG a00904649.io.CustomerReader - Customers with ID 3 created
+2017-06-10 12:27:35.263 [main] DEBUG a00904649.io.CustomerReader - Customers with ID 4 created
+2017-06-10 12:27:35.263 [main] DEBUG a00904649.io.CustomerReader - Customers with ID 5 created
+2017-06-10 12:27:35.263 [main] DEBUG a00904649.io.CustomerReader - Customers were added to ArrayList
+2017-06-10 12:27:35.264 [main] DEBUG a00904649.database.dao.CustomerDao - insert into Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '2008-03-22')
+2017-06-10 12:27:35.267 [main] DEBUG a00904649.database.dao.CustomerDao - insert into Customer values('2', 'Laurie', 'Nash', '2816 Commercial Dr', 'Vancouver', 'V5N 4C6', '(604) 876-0182', 'laurieeenash@modern.com', '2014-08-28')
+2017-06-10 12:27:35.267 [main] DEBUG a00904649.database.dao.CustomerDao - insert into Customer values('3', 'Conrad', 'Washington', '13479 King George Blvd', 'Surrey', 'V3T 2T8', '(604) 588-4988', 'cwash@daytona.net', '2011-07-12')
+2017-06-10 12:27:35.283 [main] DEBUG a00904649.database.dao.CustomerDao - insert into Customer values('4', 'Jeanette', 'Price', '21000 Westminster Hwy', 'Richmond', 'V6V 2S9', '(604) 276-2552', 'priceizrite@pacific.com', '2015-10-03')
+2017-06-10 12:27:35.283 [main] DEBUG a00904649.database.dao.CustomerDao - insert into Customer values('5', 'Mark', 'Chan', '3766 E 1st Ave', 'Burnaby', 'V5C 3V9', '(604) 293-1022', 'mchan@hc.com', '2010-04-01')
+2017-06-10 12:27:43.322 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '4'
+2017-06-10 12:27:48.911 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '2'
+2017-06-10 12:27:52.215 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '4'
+2017-06-10 12:27:54.832 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '4'
+2017-06-10 12:27:56.902 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '3'
+2017-06-10 12:28:00.519 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '2'
+2017-06-10 12:28:11.828 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '2'
+2017-06-10 12:28:14.412 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '3'
+2017-06-10 12:28:17.782 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '5'
+2017-06-10 12:28:30.922 [main] DEBUG a00904649.Lab9Option - Lab7 Options created
+2017-06-10 12:28:30.922 [main] DEBUG a00904649.database.Database - Loading database properties from db.properties
+2017-06-10 12:28:31.145 [main] DEBUG a00904649.database.Database - Driver loaded
+2017-06-10 12:28:31.993 [main] DEBUG a00904649.database.Database - Database connected
+2017-06-10 12:28:32.784 [main] DEBUG a00904649.database.Database - Found the target table named: Customer
+2017-06-10 12:28:35.750 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '1'
+2017-06-10 12:28:37.290 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '1'
+2017-06-10 12:28:40.919 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '1'
+2017-06-10 12:28:42.047 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '3'
+2017-06-10 12:28:43.015 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '1'
+2017-06-10 12:28:43.922 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '3'
+2017-06-10 12:28:44.756 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '2'
+2017-06-10 12:28:45.567 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '2'
+2017-06-10 12:28:46.364 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '5'
+2017-06-10 12:28:47.151 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '1'
+2017-06-10 12:28:47.908 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '5'
+2017-06-10 12:36:34.421 [main] DEBUG a00904649.Lab9Option - Lab7 Options created
+2017-06-10 12:36:34.424 [main] DEBUG a00904649.database.Database - Loading database properties from db.properties
+2017-06-10 12:36:34.648 [main] DEBUG a00904649.database.Database - Driver loaded
+2017-06-10 12:36:36.472 [main] DEBUG a00904649.database.Database - Database connected
+2017-06-10 12:36:37.114 [main] DEBUG a00904649.database.dao.CustomerDao - create table Customer(id VARCHAR(10), fisrtName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(30), city VARCHAR(30), postalCode VARCHAR(10), phone VARCHAR(20), emailAddress VARCHAR(30), joinedDate DATE, primary key (id) )
+2017-06-10 12:36:37.114 [main] DEBUG a00904649.database.dao.Dao - create table Customer(id VARCHAR(10), fisrtName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(30), city VARCHAR(30), postalCode VARCHAR(10), phone VARCHAR(20), emailAddress VARCHAR(30), joinedDate DATE, primary key (id) )
+2017-06-10 12:36:37.174 [main] DEBUG a00904649.Lab9 - Inserting the customers
+2017-06-10 12:36:37.175 [main] DEBUG a00904649.io.CustomerReader - Reading customer data from customers.txt
+2017-06-10 12:36:37.219 [main] DEBUG a00904649.io.CustomerReader - Customers with ID 1 created
+2017-06-10 12:36:37.219 [main] DEBUG a00904649.io.CustomerReader - Customers with ID 2 created
+2017-06-10 12:36:37.219 [main] DEBUG a00904649.io.CustomerReader - Customers with ID 3 created
+2017-06-10 12:36:37.220 [main] DEBUG a00904649.io.CustomerReader - Customers with ID 4 created
+2017-06-10 12:36:37.220 [main] DEBUG a00904649.io.CustomerReader - Customers with ID 5 created
+2017-06-10 12:36:37.220 [main] DEBUG a00904649.io.CustomerReader - Customers were added to ArrayList
+2017-06-10 12:36:37.220 [main] DEBUG a00904649.database.dao.CustomerDao - insert into Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '2008-03-22')
+2017-06-10 12:36:37.237 [main] DEBUG a00904649.database.dao.CustomerDao - insert into Customer values('2', 'Laurie', 'Nash', '2816 Commercial Dr', 'Vancouver', 'V5N 4C6', '(604) 876-0182', 'laurieeenash@modern.com', '2014-08-28')
+2017-06-10 12:36:37.241 [main] DEBUG a00904649.database.dao.CustomerDao - insert into Customer values('3', 'Conrad', 'Washington', '13479 King George Blvd', 'Surrey', 'V3T 2T8', '(604) 588-4988', 'cwash@daytona.net', '2011-07-12')
+2017-06-10 12:36:37.244 [main] DEBUG a00904649.database.dao.CustomerDao - insert into Customer values('4', 'Jeanette', 'Price', '21000 Westminster Hwy', 'Richmond', 'V6V 2S9', '(604) 276-2552', 'priceizrite@pacific.com', '2015-10-03')
+2017-06-10 12:36:37.247 [main] DEBUG a00904649.database.dao.CustomerDao - insert into Customer values('5', 'Mark', 'Chan', '3766 E 1st Ave', 'Burnaby', 'V5C 3V9', '(604) 293-1022', 'mchan@hc.com', '2010-04-01')
+2017-06-10 12:39:15.568 [main] DEBUG a00904649.Lab9Option - Lab7 Options created
+2017-06-10 12:39:15.570 [main] DEBUG a00904649.database.Database - Loading database properties from db.properties
+2017-06-10 12:39:15.797 [main] DEBUG a00904649.database.Database - Driver loaded
+2017-06-10 12:39:16.691 [main] DEBUG a00904649.database.Database - Database connected
+2017-06-10 12:39:17.511 [main] DEBUG a00904649.database.Database - Found the target table named: Customer
+2017-06-10 12:39:22.143 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '3'
+2017-06-10 12:39:24.196 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '3'
+2017-06-10 12:39:26.138 [AWT-EventQueue-0] DEBUG a00904649.database.dao.CustomerDao - SELECT * FROM Customer WHERE id = '4'

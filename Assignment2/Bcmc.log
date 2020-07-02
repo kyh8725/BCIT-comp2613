@@ -1,0 +1,1023 @@
+2017-07-01 18:45:17.901 [main] INFO  a00904649.Bcmc - Start: 2017-07-02T01:45:17.854Z
+2017-07-01 18:45:17.902 [main] DEBUG a00904649.Bcmc - Loading database properties from db.properties
+2017-07-01 18:45:18.016 [main] DEBUG a00904649.Bcmc - Driver loaded
+2017-07-01 18:45:18.561 [main] DEBUG a00904649.Bcmc - Database connected
+2017-07-01 18:45:18.812 [main] DEBUG a00904649.database.dao.InventoryDao - create table Inventory(motorcycle_id VARCHAR(40), description VARCHAR(30), part_number VARCHAR(30), price VARCHAR(10), quantiry VARCHAR(10)) 
+2017-07-01 18:45:18.812 [main] DEBUG a00904649.Bcmc - create table Inventory(motorcycle_id VARCHAR(40), description VARCHAR(30), part_number VARCHAR(30), price VARCHAR(10), quantiry VARCHAR(10)) 
+2017-07-01 18:45:18.827 [main] DEBUG a00904649.Bcmc - Inserting the inventory items
+2017-07-01 18:45:18.833 [main] DEBUG a00904649.io.InventoryReader - Reading inventory data from inventory.dat
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129907049 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129907050 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1277702426 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7147202359 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1277690501 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727706466 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727678299 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6628526813 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6628526814 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727686588 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6627711971 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1277722182 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727678100 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1427653150 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1317690871 created
+2017-07-01 18:45:18.837 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3217169203 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3417680761 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119901545 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32728533246 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1127070202 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727705606 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32728523463 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6717700591 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727689584 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1247690500 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1277688360 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1247688359 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1248542008 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1127699594 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727678101 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727673989 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6147693055 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6147708313 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1117653180 created
+2017-07-01 18:45:18.838 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32722333066 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6637659955 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6718534960 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6718534959 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6717700913 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6717700914 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6147723935 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6148523262 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6117677883 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1538524136 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119904920 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7217686971 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1731277848 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3547709426 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129907374 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129907375 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129905601 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129904260 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129904261 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129906038 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129905769 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129904700 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129903807 created
+2017-07-01 18:45:18.839 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129905537 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3138534351 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3138534350 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 61317671111 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1447687378 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1447687367 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1117694729 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1427719357 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 4117672808 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6717668644 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 5417674080 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1447687365 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727711036 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6717660163 created
+2017-07-01 18:45:18.840 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1427677987 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1412343108 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119987611 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6147713360 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6116760285 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1447687368 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3418522956 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727680378 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119906189 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3417688853 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3417689019 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727673990 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1427677988 created
+2017-07-01 18:45:18.841 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7127696377 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1427653149 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6712330765 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6147708314 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6141182903 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3838521719 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 2317707433 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3007690404 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3138534352 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3138534353 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1312346550 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727706469 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119907030 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119904164 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1272343243 created
+2017-07-01 18:45:18.842 [main] DEBUG a00904649.io.InventoryReader - Inventory items added to ArrayList
+2017-07-01 18:45:18.843 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'ASA-BOLT', '7129907049', '2.25', '19')
+2017-07-01 18:45:18.843 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'ASA-BOLT', '7129907049', '2.25', '19')
+2017-07-01 18:45:18.860 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'ASA-BOLT', '7129907050', '2.25', '802')
+2017-07-01 18:45:18.860 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'ASA-BOLT', '7129907050', '2.25', '802')
+2017-07-01 18:45:18.867 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'BALANCE ROD WITH ROCKER', '1277702426', '666.03', '0')
+2017-07-01 18:45:18.867 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'BALANCE ROD WITH ROCKER', '1277702426', '666.03', '0')
+2017-07-01 18:45:18.869 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'BALL PIN', '7147202359', '3.49', '20')
+2017-07-01 18:45:18.869 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'BALL PIN', '7147202359', '3.49', '20')
+2017-07-01 18:45:18.872 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'BEARING SHELL', '1277690501', '40.95', '18')
+2017-07-01 18:45:18.872 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'BEARING SHELL', '1277690501', '40.95', '18')
+2017-07-01 18:45:18.876 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'BELT PULLEY', '7727706466', '512.92', '1')
+2017-07-01 18:45:18.876 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'BELT PULLEY', '7727706466', '512.92', '1')
+2017-07-01 18:45:18.878 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'BELT WHEEL, REAR', '7727678299', '569.65', '2')
+2017-07-01 18:45:18.878 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'BELT WHEEL, REAR', '7727678299', '569.65', '2')
+2017-07-01 18:45:18.882 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'BELTGUARD BOTTOM INT', '6628526813', '41.52', '6')
+2017-07-01 18:45:18.882 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'BELTGUARD BOTTOM INT', '6628526813', '41.52', '6')
+2017-07-01 18:45:18.884 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'BELTGUARD, BOTTOM EXT', '6628526814', '25.64', '59')
+2017-07-01 18:45:18.884 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'BELTGUARD, BOTTOM EXT', '6628526814', '25.64', '59')
+2017-07-01 18:45:18.887 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'BELTGUARD, TOP EXTERIOR', '7727686588', '27.73', '39')
+2017-07-01 18:45:18.887 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'BELTGUARD, TOP EXTERIOR', '7727686588', '27.73', '39')
+2017-07-01 18:45:18.889 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'BINDING HEAD SCREW', '6627711971', '1.59', '1038')
+2017-07-01 18:45:18.889 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'BINDING HEAD SCREW', '6627711971', '1.59', '1038')
+2017-07-01 18:45:18.891 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'BOLT', '1277722182', '89.54', '10')
+2017-07-01 18:45:18.891 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'BOLT', '1277722182', '89.54', '10')
+2017-07-01 18:45:18.895 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'BOWDEN CAB ADJUSTMENT SCREW', '32727678100', '18.31', '20')
+2017-07-01 18:45:18.895 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'BOWDEN CAB ADJUSTMENT SCREW', '32727678100', '18.31', '20')
+2017-07-01 18:45:18.897 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'BRACKET', '1427653150', '40.95', '48')
+2017-07-01 18:45:18.897 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'BRACKET', '1427653150', '40.95', '48')
+2017-07-01 18:45:18.900 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'BRACKET, GENERATOR REGULATOR', '1317690871', '28.62', '34')
+2017-07-01 18:45:18.900 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'BRACKET, GENERATOR REGULATOR', '1317690871', '28.62', '34')
+2017-07-01 18:45:18.929 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'BULB', '3217169203', '5.15', '114')
+2017-07-01 18:45:18.929 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'BULB', '3217169203', '5.15', '114')
+2017-07-01 18:45:18.931 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'BUSHING', '3417680761', '9.32', '201')
+2017-07-01 18:45:18.931 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'BUSHING', '3417680761', '9.32', '201')
+2017-07-01 18:45:18.933 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'CIRCLIP', '7119901545', '2.09', '600')
+2017-07-01 18:45:18.934 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'CIRCLIP', '7119901545', '2.09', '600')
+2017-07-01 18:45:18.936 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'CLAMP WITH MIRROR MOUNT', '32728533246', '30.02', '44')
+2017-07-01 18:45:18.936 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'CLAMP WITH MIRROR MOUNT', '32728533246', '30.02', '44')
+2017-07-01 18:45:18.938 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'CLIP NUT', '1127070202', '1.11', '257')
+2017-07-01 18:45:18.938 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'CLIP NUT', '1127070202', '1.11', '257')
+2017-07-01 18:45:18.940 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'CLUTCH LEVER', '32727705606', '99.72', '17')
+2017-07-01 18:45:18.940 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'CLUTCH LEVER', '32727705606', '99.72', '17')
+2017-07-01 18:45:18.943 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'CLUTCH LEVER ASSEMBLY, ADJUS', '32728523463', '193.37', '7')
+2017-07-01 18:45:18.943 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'CLUTCH LEVER ASSEMBLY, ADJUS', '32728523463', '193.37', '7')
+2017-07-01 18:45:18.945 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'COLLAR BUSH', '6717700591', '13.85', '19')
+2017-07-01 18:45:18.945 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'COLLAR BUSH', '6717700591', '13.85', '19')
+2017-07-01 18:45:18.948 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'COLLAR SCREW', '7727689584', '7.26', '4')
+2017-07-01 18:45:18.948 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'COLLAR SCREW', '7727689584', '7.26', '4')
+2017-07-01 18:45:18.950 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'CONNECTING ROD BEARING', '1247690500', '32.75', '73')
+2017-07-01 18:45:18.951 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'CONNECTING ROD BEARING', '1247690500', '32.75', '73')
+2017-07-01 18:45:18.953 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'CONNECTING ROD BOLT', '1277688360', '17.81', '82')
+2017-07-01 18:45:18.953 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'CONNECTING ROD BOLT', '1277688360', '17.81', '82')
+2017-07-01 18:45:18.955 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'CONNECTING ROD BOLT', '1247688359', '15.76', '167')
+2017-07-01 18:45:18.955 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'CONNECTING ROD BOLT', '1247688359', '15.76', '167')
+2017-07-01 18:45:18.957 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'CONNECTING ROD WITH BUSHING', '1248542008', '178.35', '6')
+2017-07-01 18:45:18.957 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'CONNECTING ROD WITH BUSHING', '1248542008', '178.35', '6')
+2017-07-01 18:45:18.959 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'CONNECTION CABLE', '1127699594', '16.31', '26')
+2017-07-01 18:45:18.959 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'CONNECTION CABLE', '1127699594', '16.31', '26')
+2017-07-01 18:45:18.961 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'COUNTER NUT', '32727678101', '7.15', '15')
+2017-07-01 18:45:18.961 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'COUNTER NUT', '32727678101', '7.15', '15')
+2017-07-01 18:45:18.963 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'COUNTERSUNK HEAD SCREW', '32727673989', '5.34', '262')
+2017-07-01 18:45:18.964 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'COUNTERSUNK HEAD SCREW', '32727673989', '5.34', '262')
+2017-07-01 18:45:18.966 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'COVER FOR FUEL PUMP', '6147693055', '28.64', '36')
+2017-07-01 18:45:18.966 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'COVER FOR FUEL PUMP', '6147693055', '28.64', '36')
+2017-07-01 18:45:18.967 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'FEED PIPE', '6147708313', '41.22', '10')
+2017-07-01 18:45:18.968 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'FEED PIPE', '6147708313', '41.22', '10')
+2017-07-01 18:45:18.969 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'FILLISTER HEAD SCREW', '1117653180', '2.57', '1134')
+2017-07-01 18:45:18.969 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'FILLISTER HEAD SCREW', '1117653180', '2.57', '1134')
+2017-07-01 18:45:18.971 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'FILLISTER-HEAD SCREW', '32722333066', '3.14', '248')
+2017-07-01 18:45:18.971 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'FILLISTER-HEAD SCREW', '32722333066', '3.14', '248')
+2017-07-01 18:45:18.973 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'FLAT NUT', '6637659955', '2.45', '583')
+2017-07-01 18:45:18.973 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'FLAT NUT', '6637659955', '2.45', '583')
+2017-07-01 18:45:18.975 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'FOOTPEG PLATE RIGHT', '6718534960', '319.95', '5')
+2017-07-01 18:45:18.975 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'FOOTPEG PLATE RIGHT', '6718534960', '319.95', '5')
+2017-07-01 18:45:18.978 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'FOOTREST PLATE LEFT', '6718534959', '331.18', '7')
+2017-07-01 18:45:18.978 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'FOOTREST PLATE LEFT', '6718534959', '331.18', '7')
+2017-07-01 18:45:18.980 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'FOOTREST, LEFT', '6717700913', '80.31', '13')
+2017-07-01 18:45:18.980 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'FOOTREST, LEFT', '6717700913', '80.31', '13')
+2017-07-01 18:45:18.982 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'FOOTREST, RIGHT', '6717700914', '80.31', '1')
+2017-07-01 18:45:18.982 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'FOOTREST, RIGHT', '6717700914', '80.31', '1')
+2017-07-01 18:45:18.984 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'FUEL PUMP UNIT WITH LEVER SE', '6147723935', '504.35', '1')
+2017-07-01 18:45:18.984 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'FUEL PUMP UNIT WITH LEVER SE', '6147723935', '504.35', '1')
+2017-07-01 18:45:18.986 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'FUEL PUMP, ELECTRONIC', '6148523262', '192.86', '8')
+2017-07-01 18:45:18.986 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'FUEL PUMP, ELECTRONIC', '6148523262', '192.86', '8')
+2017-07-01 18:45:18.988 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'GASKET', '6117677883', '11.23', '15')
+2017-07-01 18:45:18.988 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'GASKET', '6117677883', '11.23', '15')
+2017-07-01 18:45:18.990 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'HEAT EXCHANGER, BLACK', '1538524136', '195.02', '1')
+2017-07-01 18:45:18.990 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'HEAT EXCHANGER, BLACK', '1538524136', '195.02', '1')
+2017-07-01 18:45:18.993 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'HEX NUT', '7119904920', '2.37', '465')
+2017-07-01 18:45:18.993 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'HEX NUT', '7119904920', '2.37', '465')
+2017-07-01 18:45:18.994 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'HOSE', '7217686971', '7.79', '279')
+2017-07-01 18:45:18.995 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'HOSE', '7217686971', '7.79', '279')
+2017-07-01 18:45:18.997 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'HOSE CLAMP', '1731277848', '6.14', '264')
+2017-07-01 18:45:18.997 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'HOSE CLAMP', '1731277848', '6.14', '264')
+2017-07-01 18:45:18.999 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'HOSE RUNNING METER', '3547709426', '35.56', '18')
+2017-07-01 18:45:18.999 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'HOSE RUNNING METER', '3547709426', '35.56', '18')
+2017-07-01 18:45:19.001 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'ISA SCREW', '7129907374', '5.61', '198')
+2017-07-01 18:45:19.001 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'ISA SCREW', '7129907374', '5.61', '198')
+2017-07-01 18:45:19.003 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'ISA SCREW', '7129907375', '5.02', '444')
+2017-07-01 18:45:19.003 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'ISA SCREW', '7129907375', '5.02', '444')
+2017-07-01 18:45:19.005 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'ISA SCREW', '7129905601', '3.53', '935')
+2017-07-01 18:45:19.005 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'ISA SCREW', '7129905601', '3.53', '935')
+2017-07-01 18:45:19.007 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'ISA SCREW', '7129904260', '3.44', '580')
+2017-07-01 18:45:19.007 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'ISA SCREW', '7129904260', '3.44', '580')
+2017-07-01 18:45:19.010 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'ISA SCREW', '7129904261', '3.44', '323')
+2017-07-01 18:45:19.010 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'ISA SCREW', '7129904261', '3.44', '323')
+2017-07-01 18:45:19.013 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'ISA SCREW', '7129906038', '3.43', '163')
+2017-07-01 18:45:19.013 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'ISA SCREW', '7129906038', '3.43', '163')
+2017-07-01 18:45:19.015 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'ISA SCREW', '7129905769', '2.63', '523')
+2017-07-01 18:45:19.015 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'ISA SCREW', '7129905769', '2.63', '523')
+2017-07-01 18:45:19.017 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'ISA SCREW', '7129904700', '2.48', '795')
+2017-07-01 18:45:19.017 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'ISA SCREW', '7129904700', '2.48', '795')
+2017-07-01 18:45:19.019 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'ISA SCREW', '7129903807', '2.27', '663')
+2017-07-01 18:45:19.019 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'ISA SCREW', '7129903807', '2.27', '663')
+2017-07-01 18:45:19.021 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'ISA SCREW WITH WASHER', '7129905537', '2.68', '281')
+2017-07-01 18:45:19.021 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'ISA SCREW WITH WASHER', '7129905537', '2.68', '281')
+2017-07-01 18:45:19.023 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'LAMP LENS', '3138534351', '18.62', '44')
+2017-07-01 18:45:19.023 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'LAMP LENS', '3138534351', '18.62', '44')
+2017-07-01 18:45:19.026 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'LAMP LENS', '3138534350', '18.61', '61')
+2017-07-01 18:45:19.026 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'LAMP LENS', '3138534350', '18.61', '61')
+2017-07-01 18:45:19.029 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'MICROSWITCH', '61317671111', '36.42', '24')
+2017-07-01 18:45:19.029 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'MICROSWITCH', '61317671111', '36.42', '24')
+2017-07-01 18:45:19.032 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'NIPPLE', '1447687378', '37.75', '2')
+2017-07-01 18:45:19.032 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'NIPPLE', '1447687378', '37.75', '2')
+2017-07-01 18:45:19.034 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'O-RING', '1447687367', '2.18', '830')
+2017-07-01 18:45:19.034 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'O-RING', '1447687367', '2.18', '830')
+2017-07-01 18:45:19.036 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'O-RING', '1117694729', '1.72', '297')
+2017-07-01 18:45:19.036 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'O-RING', '1117694729', '1.72', '297')
+2017-07-01 18:45:19.039 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'OIL FILTER, BLACK', '1427719357', '15.09', '175')
+2017-07-01 18:45:19.039 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'OIL FILTER, BLACK', '1427719357', '15.09', '175')
+2017-07-01 18:45:19.041 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'OVAL HEAD SCREW', '4117672808', '2.95', '325')
+2017-07-01 18:45:19.042 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'OVAL HEAD SCREW', '4117672808', '2.95', '325')
+2017-07-01 18:45:19.046 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'PIN', '6717668644', '10.51', '47')
+2017-07-01 18:45:19.046 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'PIN', '6717668644', '10.51', '47')
+2017-07-01 18:45:19.048 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'PLASTIC BUSH', '5417674080', '2.14', '163')
+2017-07-01 18:45:19.048 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'PLASTIC BUSH', '5417674080', '2.14', '163')
+2017-07-01 18:45:19.050 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'PREFORMED SEAL', '1447687365', '8.16', '66')
+2017-07-01 18:45:19.051 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'PREFORMED SEAL', '1447687365', '8.16', '66')
+2017-07-01 18:45:19.053 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'REPAIR KIT FOR JERK DAMPER', '7727711036', '108.88', '9')
+2017-07-01 18:45:19.053 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'REPAIR KIT FOR JERK DAMPER', '7727711036', '108.88', '9')
+2017-07-01 18:45:19.055 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'RETAINER SPRING', '6717660163', '4.08', '138')
+2017-07-01 18:45:19.055 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'RETAINER SPRING', '6717660163', '4.08', '138')
+2017-07-01 18:45:19.057 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'RING', '1427677987', '3.51', '291')
+2017-07-01 18:45:19.057 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'RING', '1427677987', '3.51', '291')
+2017-07-01 18:45:19.060 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'ROLL PIN', '1412343108', '7.44', '114')
+2017-07-01 18:45:19.060 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'ROLL PIN', '1412343108', '7.44', '114')
+2017-07-01 18:45:19.062 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'SAFETY CLIP', '7119987611', '1.82', '593')
+2017-07-01 18:45:19.062 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'SAFETY CLIP', '7119987611', '1.82', '593')
+2017-07-01 18:45:19.064 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'SCREW', '6147713360', '0.99', '242')
+2017-07-01 18:45:19.064 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'SCREW', '6147713360', '0.99', '242')
+2017-07-01 18:45:19.067 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'SCREW CAP', '6116760285', '10.31', '114')
+2017-07-01 18:45:19.067 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'SCREW CAP', '6116760285', '10.31', '114')
+2017-07-01 18:45:19.069 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'SCREW PLUG', '1447687368', '2.72', '135')
+2017-07-01 18:45:19.069 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'SCREW PLUG', '1447687368', '2.72', '135')
+2017-07-01 18:45:19.071 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'SELECTOR ROD', '3418522956', '47.78', '21')
+2017-07-01 18:45:19.071 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'SELECTOR ROD', '3418522956', '47.78', '21')
+2017-07-01 18:45:19.073 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'SELF-LOCKING HEX NUT', '32727680378', '3.78', '238')
+2017-07-01 18:45:19.074 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'SELF-LOCKING HEX NUT', '32727680378', '3.78', '238')
+2017-07-01 18:45:19.077 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'SHEET METAL SCREW', '7119906189', '1.02', '686')
+2017-07-01 18:45:19.077 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'SHEET METAL SCREW', '7119906189', '1.02', '686')
+2017-07-01 18:45:19.080 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'SHIFT LEVER, SILVER', '3417688853', '169.15', '5')
+2017-07-01 18:45:19.080 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'SHIFT LEVER, SILVER', '3417688853', '169.15', '5')
+2017-07-01 18:45:19.083 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'SHIFT LEVER, SILVER', '3417689019', '83.95', '6')
+2017-07-01 18:45:19.083 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'SHIFT LEVER, SILVER', '3417689019', '83.95', '6')
+2017-07-01 18:45:19.085 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'SLEEVE', '32727673990', '9.05', '53')
+2017-07-01 18:45:19.085 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'SLEEVE', '32727673990', '9.05', '53')
+2017-07-01 18:45:19.087 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'SLEEVE', '1427677988', '2.42', '40')
+2017-07-01 18:45:19.087 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'SLEEVE', '1427677988', '2.42', '40')
+2017-07-01 18:45:19.089 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'SPRING RING SHELL', '7127696377', '5.09', '269')
+2017-07-01 18:45:19.089 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'SPRING RING SHELL', '7127696377', '5.09', '269')
+2017-07-01 18:45:19.091 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'STEERING DAMPER', '1427653149', '388.09', '5')
+2017-07-01 18:45:19.091 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'STEERING DAMPER', '1427653149', '388.09', '5')
+2017-07-01 18:45:19.093 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'STOPPER', '6712330765', '8.03', '84')
+2017-07-01 18:45:19.093 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'STOPPER', '6712330765', '8.03', '84')
+2017-07-01 18:45:19.095 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'STRAINER', '6147708314', '80.28', '5')
+2017-07-01 18:45:19.095 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'STRAINER', '6147708314', '80.28', '5')
+2017-07-01 18:45:19.097 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'SUPPORTING RING', '6141182903', '9.87', '104')
+2017-07-01 18:45:19.097 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'SUPPORTING RING', '6141182903', '9.87', '104')
+2017-07-01 18:45:19.099 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'TOOTH BELT', '3838521719', '510.12', '3')
+2017-07-01 18:45:19.100 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'TOOTH BELT', '3838521719', '510.12', '3')
+2017-07-01 18:45:19.102 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'TORX BOLT', '2317707433', '2.57', '646')
+2017-07-01 18:45:19.102 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'TORX BOLT', '2317707433', '2.57', '646')
+2017-07-01 18:45:19.104 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'TORX BOLT', '3007690404', '2.14', '1465')
+2017-07-01 18:45:19.104 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'TORX BOLT', '3007690404', '2.14', '1465')
+2017-07-01 18:45:19.106 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'TURN INDICATOR', '3138534352', '72.05', '19')
+2017-07-01 18:45:19.106 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'TURN INDICATOR', '3138534352', '72.05', '19')
+2017-07-01 18:45:19.112 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'TURN INDICATOR', '3138534353', '72.05', '5')
+2017-07-01 18:45:19.112 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'TURN INDICATOR', '3138534353', '72.05', '5')
+2017-07-01 18:45:19.115 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'VOLTAGE REGULATOR', '1312346550', '188.76', '8')
+2017-07-01 18:45:19.115 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'VOLTAGE REGULATOR', '1312346550', '188.76', '8')
+2017-07-01 18:45:19.117 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'WASHER', '7727706469', '19.85', '27')
+2017-07-01 18:45:19.117 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'WASHER', '7727706469', '19.85', '27')
+2017-07-01 18:45:19.121 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'WASHER', '7119907030', '6.95', '71')
+2017-07-01 18:45:19.121 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'WASHER', '7119907030', '6.95', '71')
+2017-07-01 18:45:19.124 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'WASHER', '7119904164', '2.95', '380')
+2017-07-01 18:45:19.125 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'WASHER', '7119904164', '2.95', '380')
+2017-07-01 18:45:19.128 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'WOODRUFF KEY', '1272343243', '4.91', '580')
+2017-07-01 18:45:19.129 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'WOODRUFF KEY', '1272343243', '4.91', '580')
+2017-07-01 18:45:19.132 [main] DEBUG a00904649.Bcmc - Creating the UI MainFrame
+2017-07-01 18:45:19.191 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the Look & Feel
+2017-07-01 18:45:23.447 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - End: 2017-07-02T01:45:23.447Z
+2017-07-01 18:45:23.447 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Duration: 5593 ms
+2017-07-02 14:07:51.475 [main] INFO  a00904649.Bcmc - Start: 2017-07-02T21:07:51.419Z
+2017-07-02 14:07:51.478 [main] DEBUG a00904649.Bcmc - Loading database properties from db.properties
+2017-07-02 14:07:51.606 [main] DEBUG a00904649.Bcmc - Driver loaded
+2017-07-02 14:07:51.878 [main] DEBUG a00904649.Bcmc - Database connected
+2017-07-02 14:07:52.018 [main] DEBUG a00904649.Bcmc - Found the target table named: Inventory
+2017-07-02 14:07:52.018 [main] DEBUG a00904649.Bcmc - Creating the UI MainFrame
+2017-07-02 14:07:52.086 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the Look & Feel
+2017-07-02 14:07:58.718 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Total menu clikced and message displayed
+2017-07-02 14:07:58.719 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-02 14:08:01.032 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - By description menu item pressed.
+2017-07-02 14:08:01.033 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-02 14:08:01.040 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Inventory data sorted by Description
+2017-07-02 14:08:01.051 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Inventory report Dialog created
+2017-07-02 14:08:01.164 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Eventhandlers for InventoryReportDialog added
+2017-07-02 14:08:01.166 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-02 14:08:01.166 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-02 14:08:04.902 [AWT-EventQueue-0] INFO  a00904649.Bcmc - InventoryListDialog created
+2017-07-02 14:08:04.914 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-02 14:08:04.917 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger ASA-BOLT 7129907049 2.25 19
+2017-07-02 14:08:04.918 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt ASA-BOLT 7129907050 2.25 802
+2017-07-02 14:08:04.918 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 BALANCE ROD WITH ROCKER 1277702426 666.03 0
+2017-07-02 14:08:04.918 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 BALL PIN 7147202359 3.49 20
+2017-07-02 14:08:04.918 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger BEARING SHELL 1277690501 40.95 18
+2017-07-02 14:08:04.918 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster BELT PULLEY 7727706466 512.92 1
+2017-07-02 14:08:04.918 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 BELT WHEEL, REAR 7727678299 569.65 2
+2017-07-02 14:08:04.918 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom BELTGUARD BOTTOM INT 6628526813 41.52 6
+2017-07-02 14:08:04.918 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt BELTGUARD, BOTTOM EXT 6628526814 25.64 59
+2017-07-02 14:08:04.918 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 BELTGUARD, TOP EXTERIOR 7727686588 27.73 39
+2017-07-02 14:08:04.919 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster BINDING HEAD SCREW 6627711971 1.59 1038
+2017-07-02 14:08:04.919 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger BOLT 1277722182 89.54 10
+2017-07-02 14:08:04.919 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 BOWDEN CAB ADJUSTMENT SCREW 32727678100 18.31 20
+2017-07-02 14:08:04.919 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster BRACKET 1427653150 40.95 48
+2017-07-02 14:08:04.919 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 BRACKET, GENERATOR REGULATOR 1317690871 28.62 34
+2017-07-02 14:08:04.919 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 BULB 3217169203 5.15 114
+2017-07-02 14:08:04.919 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 BUSHING 3417680761 9.32 201
+2017-07-02 14:08:04.919 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt CIRCLIP 7119901545 2.09 600
+2017-07-02 14:08:04.919 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 CLAMP WITH MIRROR MOUNT 32728533246 30.02 44
+2017-07-02 14:08:04.919 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger CLIP NUT 1127070202 1.11 257
+2017-07-02 14:08:04.920 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 CLUTCH LEVER 32727705606 99.72 17
+2017-07-02 14:08:04.920 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 CLUTCH LEVER ASSEMBLY, ADJUS 32728523463 193.37 7
+2017-07-02 14:08:04.920 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 COLLAR BUSH 6717700591 13.85 19
+2017-07-02 14:08:04.920 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt COLLAR SCREW 7727689584 7.26 4
+2017-07-02 14:08:04.920 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom CONNECTING ROD BEARING 1247690500 32.75 73
+2017-07-02 14:08:04.920 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt CONNECTING ROD BOLT 1277688360 17.81 82
+2017-07-02 14:08:04.920 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom CONNECTING ROD BOLT 1247688359 15.76 167
+2017-07-02 14:08:04.920 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger CONNECTING ROD WITH BUSHING 1248542008 178.35 6
+2017-07-02 14:08:04.920 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom CONNECTION CABLE 1127699594 16.31 26
+2017-07-02 14:08:04.920 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 COUNTER NUT 32727678101 7.15 15
+2017-07-02 14:08:04.921 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger COUNTERSUNK HEAD SCREW 32727673989 5.34 262
+2017-07-02 14:08:04.921 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt COVER FOR FUEL PUMP 6147693055 28.64 36
+2017-07-02 14:08:04.921 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster FEED PIPE 6147708313 41.22 10
+2017-07-02 14:08:04.921 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 FILLISTER HEAD SCREW 1117653180 2.57 1134
+2017-07-02 14:08:04.921 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger FILLISTER-HEAD SCREW 32722333066 3.14 248
+2017-07-02 14:08:04.921 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 FLAT NUT 6637659955 2.45 583
+2017-07-02 14:08:04.921 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 FOOTPEG PLATE RIGHT 6718534960 319.95 5
+2017-07-02 14:08:04.921 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom FOOTREST PLATE LEFT 6718534959 331.18 7
+2017-07-02 14:08:04.921 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 FOOTREST, LEFT 6717700913 80.31 13
+2017-07-02 14:08:04.921 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 FOOTREST, RIGHT 6717700914 80.31 1
+2017-07-02 14:08:04.921 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom FUEL PUMP UNIT WITH LEVER SE 6147723935 504.35 1
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 FUEL PUMP, ELECTRONIC 6148523262 192.86 8
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom GASKET 6117677883 11.23 15
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger HEAT EXCHANGER, BLACK 1538524136 195.02 1
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 HEX NUT 7119904920 2.37 465
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster HOSE 7217686971 7.79 279
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster HOSE CLAMP 1731277848 6.14 264
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 HOSE RUNNING METER 3547709426 35.56 18
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom ISA SCREW 7129907374 5.61 198
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 ISA SCREW 7129907375 5.02 444
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger ISA SCREW 7129905601 3.53 935
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster ISA SCREW 7129904260 3.44 580
+2017-07-02 14:08:04.922 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 ISA SCREW 7129904261 3.44 323
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 ISA SCREW 7129906038 3.43 163
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt ISA SCREW 7129905769 2.63 523
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 ISA SCREW 7129904700 2.48 795
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 ISA SCREW 7129903807 2.27 663
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger ISA SCREW WITH WASHER 7129905537 2.68 281
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 LAMP LENS 3138534351 18.62 44
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom LAMP LENS 3138534350 18.61 61
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom MICROSWITCH 61317671111 36.42 24
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 NIPPLE 1447687378 37.75 2
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt O-RING 1447687367 2.18 830
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom O-RING 1117694729 1.72 297
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster OIL FILTER, BLACK 1427719357 15.09 175
+2017-07-02 14:08:04.923 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 OVAL HEAD SCREW 4117672808 2.95 325
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom PIN 6717668644 10.51 47
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger PLASTIC BUSH 5417674080 2.14 163
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 PREFORMED SEAL 1447687365 8.16 66
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 REPAIR KIT FOR JERK DAMPER 7727711036 108.88 9
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 RETAINER SPRING 6717660163 4.08 138
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger RING 1427677987 3.51 291
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom ROLL PIN 1412343108 7.44 114
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt SAFETY CLIP 7119987611 1.82 593
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger SCREW 6147713360 0.99 242
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom SCREW CAP 6116760285 10.31 114
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 SCREW PLUG 1447687368 2.72 135
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger SELECTOR ROD 3418522956 47.78 21
+2017-07-02 14:08:04.924 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 SELF-LOCKING HEX NUT 32727680378 3.78 238
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 SHEET METAL SCREW 7119906189 1.02 686
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger SHIFT LEVER, SILVER 3417688853 169.15 5
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom SHIFT LEVER, SILVER 3417689019 83.95 6
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 SLEEVE 32727673990 9.05 53
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt SLEEVE 1427677988 2.42 40
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom SPRING RING SHELL 7127696377 5.09 269
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 STEERING DAMPER 1427653149 388.09 5
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 STOPPER 6712330765 8.03 84
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt STRAINER 6147708314 80.28 5
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 SUPPORTING RING 6141182903 9.87 104
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom TOOTH BELT 3838521719 510.12 3
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt TORX BOLT 2317707433 2.57 646
+2017-07-02 14:08:04.925 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom TORX BOLT 3007690404 2.14 1465
+2017-07-02 14:08:04.926 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger TURN INDICATOR 3138534352 72.05 19
+2017-07-02 14:08:04.926 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt TURN INDICATOR 3138534353 72.05 5
+2017-07-02 14:08:04.926 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 VOLTAGE REGULATOR 1312346550 188.76 8
+2017-07-02 14:08:04.926 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger WASHER 7727706469 19.85 27
+2017-07-02 14:08:04.926 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 WASHER 7119907030 6.95 71
+2017-07-02 14:08:04.926 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt WASHER 7119904164 2.95 380
+2017-07-02 14:08:04.926 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 WOODRUFF KEY 1272343243 4.91 580
+2017-07-02 14:08:04.926 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Event Handlers add for InventoryListDialog
+2017-07-02 14:08:04.946 [AWT-EventQueue-0] DEBUG a00904649.ui.UIController - InventoryListDialog created
+2017-07-02 14:08:06.061 [AWT-EventQueue-0] DEBUG a00904649.ui.UIController - Item selected: 0
+2017-07-02 14:08:06.066 [AWT-EventQueue-0] INFO  a00904649.ui.InventoryDialog - Inventory Dialog created
+2017-07-02 14:08:06.091 [AWT-EventQueue-0] DEBUG a00904649.ui.InventoryDialog - setting the InventoryDialog with Iventory item info
+2017-07-02 14:08:09.764 [AWT-EventQueue-0] DEBUG a00904649.ui.UIController - Updating item: 7129907049
+2017-07-02 14:08:09.764 [AWT-EventQueue-0] DEBUG a00904649.database.dao.InventoryDao - UPDATE Inventory set motorcycle_id='Triumph+Tiger', description='ASA-BOLT', part_number='7129907049', price='2.25', quantiry='19' WHERE part_number='7129907049'
+2017-07-02 14:08:09.764 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - UPDATE Inventory set motorcycle_id='Triumph+Tiger', description='ASA-BOLT', part_number='7129907049', price='2.25', quantiry='19' WHERE part_number='7129907049'
+2017-07-02 14:08:09.797 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel update item Triumph+Tiger ASA-BOLT 7129907049 2.25 19
+2017-07-02 14:08:09.797 [AWT-EventQueue-0] DEBUG a00904649.ui.UIController - Item 7129907049 updated
+2017-07-02 14:08:10.604 [AWT-EventQueue-0] DEBUG a00904649.ui.UIController - Item selected: 0
+2017-07-02 14:08:10.604 [AWT-EventQueue-0] INFO  a00904649.ui.InventoryDialog - Inventory Dialog created
+2017-07-02 14:08:10.607 [AWT-EventQueue-0] DEBUG a00904649.ui.InventoryDialog - setting the InventoryDialog with Iventory item info
+2017-07-02 14:08:15.089 [AWT-EventQueue-0] DEBUG a00904649.ui.InventoryDialog - Inventory item info updated
+2017-07-02 14:08:15.093 [AWT-EventQueue-0] DEBUG a00904649.ui.UIController - Updating item: 7129907049
+2017-07-02 14:08:15.093 [AWT-EventQueue-0] DEBUG a00904649.database.dao.InventoryDao - UPDATE Inventory set motorcycle_id='Triumph+Tiger', description='ASA-BOLT', part_number='7129907049', price='2.25', quantiry='20' WHERE part_number='7129907049'
+2017-07-02 14:08:15.094 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - UPDATE Inventory set motorcycle_id='Triumph+Tiger', description='ASA-BOLT', part_number='7129907049', price='2.25', quantiry='20' WHERE part_number='7129907049'
+2017-07-02 14:08:15.100 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel update item Triumph+Tiger ASA-BOLT 7129907049 2.25 20
+2017-07-02 14:08:15.101 [AWT-EventQueue-0] DEBUG a00904649.ui.UIController - Item 7129907049 updated
+2017-07-02 14:08:18.079 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - By description menu item pressed.
+2017-07-02 14:08:18.079 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-02 14:08:18.081 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Inventory data sorted by Description
+2017-07-02 14:08:18.081 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Inventory report Dialog created
+2017-07-02 14:08:18.084 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Eventhandlers for InventoryReportDialog added
+2017-07-02 14:08:18.084 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-02 14:08:18.084 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-03 13:59:40.710 [main] INFO  a00904649.Bcmc - Start: 2017-07-03T20:59:40.669Z
+2017-07-03 13:59:40.712 [main] DEBUG a00904649.Bcmc - Loading database properties from db.properties
+2017-07-03 13:59:40.838 [main] DEBUG a00904649.Bcmc - Driver loaded
+2017-07-03 13:59:41.334 [main] DEBUG a00904649.Bcmc - Database connected
+2017-07-03 13:59:41.553 [main] DEBUG a00904649.database.dao.InventoryDao - create table Inventory(motorcycle_id VARCHAR(40), description VARCHAR(30), part_number VARCHAR(30), price VARCHAR(10), quantiry VARCHAR(10)) 
+2017-07-03 13:59:41.553 [main] DEBUG a00904649.Bcmc - create table Inventory(motorcycle_id VARCHAR(40), description VARCHAR(30), part_number VARCHAR(30), price VARCHAR(10), quantiry VARCHAR(10)) 
+2017-07-03 13:59:41.568 [main] DEBUG a00904649.Bcmc - Inserting the inventory items
+2017-07-03 13:59:41.574 [main] DEBUG a00904649.io.InventoryReader - Reading inventory data from inventory.dat
+2017-07-03 13:59:41.578 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129907049 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129907050 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1277702426 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7147202359 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1277690501 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727706466 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727678299 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6628526813 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6628526814 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727686588 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6627711971 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1277722182 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727678100 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1427653150 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1317690871 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3217169203 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3417680761 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119901545 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32728533246 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1127070202 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727705606 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32728523463 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6717700591 created
+2017-07-03 13:59:41.579 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727689584 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1247690500 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1277688360 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1247688359 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1248542008 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1127699594 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727678101 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727673989 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6147693055 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6147708313 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1117653180 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32722333066 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6637659955 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6718534960 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6718534959 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6717700913 created
+2017-07-03 13:59:41.580 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6717700914 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6147723935 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6148523262 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6117677883 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1538524136 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119904920 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7217686971 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1731277848 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3547709426 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129907374 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129907375 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129905601 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129904260 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129904261 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129906038 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129905769 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129904700 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129903807 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7129905537 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3138534351 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3138534350 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 61317671111 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1447687378 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1447687367 created
+2017-07-03 13:59:41.581 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1117694729 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1427719357 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 4117672808 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6717668644 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 5417674080 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1447687365 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727711036 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6717660163 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1427677987 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1412343108 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119987611 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6147713360 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6116760285 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1447687368 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3418522956 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727680378 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119906189 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3417688853 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3417689019 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 32727673990 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1427677988 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7127696377 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1427653149 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6712330765 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6147708314 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 6141182903 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3838521719 created
+2017-07-03 13:59:41.582 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 2317707433 created
+2017-07-03 13:59:41.583 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3007690404 created
+2017-07-03 13:59:41.583 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3138534352 created
+2017-07-03 13:59:41.583 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 3138534353 created
+2017-07-03 13:59:41.583 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1312346550 created
+2017-07-03 13:59:41.583 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7727706469 created
+2017-07-03 13:59:41.583 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119907030 created
+2017-07-03 13:59:41.583 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 7119904164 created
+2017-07-03 13:59:41.583 [main] DEBUG a00904649.io.InventoryReader - Inventory with part number 1272343243 created
+2017-07-03 13:59:41.584 [main] DEBUG a00904649.io.InventoryReader - Inventory items added to ArrayList
+2017-07-03 13:59:41.584 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'ASA-BOLT', '7129907049', '2.25', '19')
+2017-07-03 13:59:41.584 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'ASA-BOLT', '7129907049', '2.25', '19')
+2017-07-03 13:59:41.597 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'ASA-BOLT', '7129907050', '2.25', '802')
+2017-07-03 13:59:41.597 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'ASA-BOLT', '7129907050', '2.25', '802')
+2017-07-03 13:59:41.599 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'BALANCE ROD WITH ROCKER', '1277702426', '666.03', '0')
+2017-07-03 13:59:41.599 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'BALANCE ROD WITH ROCKER', '1277702426', '666.03', '0')
+2017-07-03 13:59:41.602 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'BALL PIN', '7147202359', '3.49', '20')
+2017-07-03 13:59:41.602 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'BALL PIN', '7147202359', '3.49', '20')
+2017-07-03 13:59:41.605 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'BEARING SHELL', '1277690501', '40.95', '18')
+2017-07-03 13:59:41.605 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'BEARING SHELL', '1277690501', '40.95', '18')
+2017-07-03 13:59:41.607 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'BELT PULLEY', '7727706466', '512.92', '1')
+2017-07-03 13:59:41.607 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'BELT PULLEY', '7727706466', '512.92', '1')
+2017-07-03 13:59:41.609 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'BELT WHEEL, REAR', '7727678299', '569.65', '2')
+2017-07-03 13:59:41.609 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'BELT WHEEL, REAR', '7727678299', '569.65', '2')
+2017-07-03 13:59:41.611 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'BELTGUARD BOTTOM INT', '6628526813', '41.52', '6')
+2017-07-03 13:59:41.611 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'BELTGUARD BOTTOM INT', '6628526813', '41.52', '6')
+2017-07-03 13:59:41.613 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'BELTGUARD, BOTTOM EXT', '6628526814', '25.64', '59')
+2017-07-03 13:59:41.613 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'BELTGUARD, BOTTOM EXT', '6628526814', '25.64', '59')
+2017-07-03 13:59:41.615 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'BELTGUARD, TOP EXTERIOR', '7727686588', '27.73', '39')
+2017-07-03 13:59:41.615 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'BELTGUARD, TOP EXTERIOR', '7727686588', '27.73', '39')
+2017-07-03 13:59:41.617 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'BINDING HEAD SCREW', '6627711971', '1.59', '1038')
+2017-07-03 13:59:41.617 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'BINDING HEAD SCREW', '6627711971', '1.59', '1038')
+2017-07-03 13:59:41.619 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'BOLT', '1277722182', '89.54', '10')
+2017-07-03 13:59:41.619 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'BOLT', '1277722182', '89.54', '10')
+2017-07-03 13:59:41.621 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'BOWDEN CAB ADJUSTMENT SCREW', '32727678100', '18.31', '20')
+2017-07-03 13:59:41.622 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'BOWDEN CAB ADJUSTMENT SCREW', '32727678100', '18.31', '20')
+2017-07-03 13:59:41.623 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'BRACKET', '1427653150', '40.95', '48')
+2017-07-03 13:59:41.624 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'BRACKET', '1427653150', '40.95', '48')
+2017-07-03 13:59:41.648 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'BRACKET, GENERATOR REGULATOR', '1317690871', '28.62', '34')
+2017-07-03 13:59:41.648 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'BRACKET, GENERATOR REGULATOR', '1317690871', '28.62', '34')
+2017-07-03 13:59:41.651 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'BULB', '3217169203', '5.15', '114')
+2017-07-03 13:59:41.651 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'BULB', '3217169203', '5.15', '114')
+2017-07-03 13:59:41.653 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'BUSHING', '3417680761', '9.32', '201')
+2017-07-03 13:59:41.653 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'BUSHING', '3417680761', '9.32', '201')
+2017-07-03 13:59:41.655 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'CIRCLIP', '7119901545', '2.09', '600')
+2017-07-03 13:59:41.655 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'CIRCLIP', '7119901545', '2.09', '600')
+2017-07-03 13:59:41.657 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'CLAMP WITH MIRROR MOUNT', '32728533246', '30.02', '44')
+2017-07-03 13:59:41.657 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'CLAMP WITH MIRROR MOUNT', '32728533246', '30.02', '44')
+2017-07-03 13:59:41.659 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'CLIP NUT', '1127070202', '1.11', '257')
+2017-07-03 13:59:41.659 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'CLIP NUT', '1127070202', '1.11', '257')
+2017-07-03 13:59:41.661 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'CLUTCH LEVER', '32727705606', '99.72', '17')
+2017-07-03 13:59:41.661 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'CLUTCH LEVER', '32727705606', '99.72', '17')
+2017-07-03 13:59:41.663 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'CLUTCH LEVER ASSEMBLY, ADJUS', '32728523463', '193.37', '7')
+2017-07-03 13:59:41.663 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'CLUTCH LEVER ASSEMBLY, ADJUS', '32728523463', '193.37', '7')
+2017-07-03 13:59:41.665 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'COLLAR BUSH', '6717700591', '13.85', '19')
+2017-07-03 13:59:41.665 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'COLLAR BUSH', '6717700591', '13.85', '19')
+2017-07-03 13:59:41.667 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'COLLAR SCREW', '7727689584', '7.26', '4')
+2017-07-03 13:59:41.667 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'COLLAR SCREW', '7727689584', '7.26', '4')
+2017-07-03 13:59:41.669 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'CONNECTING ROD BEARING', '1247690500', '32.75', '73')
+2017-07-03 13:59:41.669 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'CONNECTING ROD BEARING', '1247690500', '32.75', '73')
+2017-07-03 13:59:41.671 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'CONNECTING ROD BOLT', '1277688360', '17.81', '82')
+2017-07-03 13:59:41.672 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'CONNECTING ROD BOLT', '1277688360', '17.81', '82')
+2017-07-03 13:59:41.674 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'CONNECTING ROD BOLT', '1247688359', '15.76', '167')
+2017-07-03 13:59:41.674 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'CONNECTING ROD BOLT', '1247688359', '15.76', '167')
+2017-07-03 13:59:41.676 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'CONNECTING ROD WITH BUSHING', '1248542008', '178.35', '6')
+2017-07-03 13:59:41.676 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'CONNECTING ROD WITH BUSHING', '1248542008', '178.35', '6')
+2017-07-03 13:59:41.678 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'CONNECTION CABLE', '1127699594', '16.31', '26')
+2017-07-03 13:59:41.678 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'CONNECTION CABLE', '1127699594', '16.31', '26')
+2017-07-03 13:59:41.680 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'COUNTER NUT', '32727678101', '7.15', '15')
+2017-07-03 13:59:41.680 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'COUNTER NUT', '32727678101', '7.15', '15')
+2017-07-03 13:59:41.682 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'COUNTERSUNK HEAD SCREW', '32727673989', '5.34', '262')
+2017-07-03 13:59:41.682 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'COUNTERSUNK HEAD SCREW', '32727673989', '5.34', '262')
+2017-07-03 13:59:41.684 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'COVER FOR FUEL PUMP', '6147693055', '28.64', '36')
+2017-07-03 13:59:41.684 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'COVER FOR FUEL PUMP', '6147693055', '28.64', '36')
+2017-07-03 13:59:41.686 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'FEED PIPE', '6147708313', '41.22', '10')
+2017-07-03 13:59:41.686 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'FEED PIPE', '6147708313', '41.22', '10')
+2017-07-03 13:59:41.688 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'FILLISTER HEAD SCREW', '1117653180', '2.57', '1134')
+2017-07-03 13:59:41.688 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'FILLISTER HEAD SCREW', '1117653180', '2.57', '1134')
+2017-07-03 13:59:41.689 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'FILLISTER-HEAD SCREW', '32722333066', '3.14', '248')
+2017-07-03 13:59:41.689 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'FILLISTER-HEAD SCREW', '32722333066', '3.14', '248')
+2017-07-03 13:59:41.691 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'FLAT NUT', '6637659955', '2.45', '583')
+2017-07-03 13:59:41.691 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'FLAT NUT', '6637659955', '2.45', '583')
+2017-07-03 13:59:41.693 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'FOOTPEG PLATE RIGHT', '6718534960', '319.95', '5')
+2017-07-03 13:59:41.693 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'FOOTPEG PLATE RIGHT', '6718534960', '319.95', '5')
+2017-07-03 13:59:41.695 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'FOOTREST PLATE LEFT', '6718534959', '331.18', '7')
+2017-07-03 13:59:41.695 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'FOOTREST PLATE LEFT', '6718534959', '331.18', '7')
+2017-07-03 13:59:41.697 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'FOOTREST, LEFT', '6717700913', '80.31', '13')
+2017-07-03 13:59:41.697 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'FOOTREST, LEFT', '6717700913', '80.31', '13')
+2017-07-03 13:59:41.699 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'FOOTREST, RIGHT', '6717700914', '80.31', '1')
+2017-07-03 13:59:41.699 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'FOOTREST, RIGHT', '6717700914', '80.31', '1')
+2017-07-03 13:59:41.701 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'FUEL PUMP UNIT WITH LEVER SE', '6147723935', '504.35', '1')
+2017-07-03 13:59:41.701 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'FUEL PUMP UNIT WITH LEVER SE', '6147723935', '504.35', '1')
+2017-07-03 13:59:41.703 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'FUEL PUMP, ELECTRONIC', '6148523262', '192.86', '8')
+2017-07-03 13:59:41.703 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'FUEL PUMP, ELECTRONIC', '6148523262', '192.86', '8')
+2017-07-03 13:59:41.704 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'GASKET', '6117677883', '11.23', '15')
+2017-07-03 13:59:41.705 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'GASKET', '6117677883', '11.23', '15')
+2017-07-03 13:59:41.707 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'HEAT EXCHANGER, BLACK', '1538524136', '195.02', '1')
+2017-07-03 13:59:41.707 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'HEAT EXCHANGER, BLACK', '1538524136', '195.02', '1')
+2017-07-03 13:59:41.709 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'HEX NUT', '7119904920', '2.37', '465')
+2017-07-03 13:59:41.709 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'HEX NUT', '7119904920', '2.37', '465')
+2017-07-03 13:59:41.711 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'HOSE', '7217686971', '7.79', '279')
+2017-07-03 13:59:41.711 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'HOSE', '7217686971', '7.79', '279')
+2017-07-03 13:59:41.712 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'HOSE CLAMP', '1731277848', '6.14', '264')
+2017-07-03 13:59:41.713 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'HOSE CLAMP', '1731277848', '6.14', '264')
+2017-07-03 13:59:41.715 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'HOSE RUNNING METER', '3547709426', '35.56', '18')
+2017-07-03 13:59:41.715 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'HOSE RUNNING METER', '3547709426', '35.56', '18')
+2017-07-03 13:59:41.717 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'ISA SCREW', '7129907374', '5.61', '198')
+2017-07-03 13:59:41.717 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'ISA SCREW', '7129907374', '5.61', '198')
+2017-07-03 13:59:41.719 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'ISA SCREW', '7129907375', '5.02', '444')
+2017-07-03 13:59:41.719 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'ISA SCREW', '7129907375', '5.02', '444')
+2017-07-03 13:59:41.721 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'ISA SCREW', '7129905601', '3.53', '935')
+2017-07-03 13:59:41.721 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'ISA SCREW', '7129905601', '3.53', '935')
+2017-07-03 13:59:41.723 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'ISA SCREW', '7129904260', '3.44', '580')
+2017-07-03 13:59:41.723 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'ISA SCREW', '7129904260', '3.44', '580')
+2017-07-03 13:59:41.725 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'ISA SCREW', '7129904261', '3.44', '323')
+2017-07-03 13:59:41.725 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'ISA SCREW', '7129904261', '3.44', '323')
+2017-07-03 13:59:41.726 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'ISA SCREW', '7129906038', '3.43', '163')
+2017-07-03 13:59:41.727 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'ISA SCREW', '7129906038', '3.43', '163')
+2017-07-03 13:59:41.729 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'ISA SCREW', '7129905769', '2.63', '523')
+2017-07-03 13:59:41.729 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'ISA SCREW', '7129905769', '2.63', '523')
+2017-07-03 13:59:41.731 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'ISA SCREW', '7129904700', '2.48', '795')
+2017-07-03 13:59:41.731 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'ISA SCREW', '7129904700', '2.48', '795')
+2017-07-03 13:59:41.733 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'ISA SCREW', '7129903807', '2.27', '663')
+2017-07-03 13:59:41.733 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'ISA SCREW', '7129903807', '2.27', '663')
+2017-07-03 13:59:41.735 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'ISA SCREW WITH WASHER', '7129905537', '2.68', '281')
+2017-07-03 13:59:41.735 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'ISA SCREW WITH WASHER', '7129905537', '2.68', '281')
+2017-07-03 13:59:41.737 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'LAMP LENS', '3138534351', '18.62', '44')
+2017-07-03 13:59:41.737 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'LAMP LENS', '3138534351', '18.62', '44')
+2017-07-03 13:59:41.739 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'LAMP LENS', '3138534350', '18.61', '61')
+2017-07-03 13:59:41.739 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'LAMP LENS', '3138534350', '18.61', '61')
+2017-07-03 13:59:41.741 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'MICROSWITCH', '61317671111', '36.42', '24')
+2017-07-03 13:59:41.741 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'MICROSWITCH', '61317671111', '36.42', '24')
+2017-07-03 13:59:41.744 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'NIPPLE', '1447687378', '37.75', '2')
+2017-07-03 13:59:41.744 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'NIPPLE', '1447687378', '37.75', '2')
+2017-07-03 13:59:41.746 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'O-RING', '1447687367', '2.18', '830')
+2017-07-03 13:59:41.746 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'O-RING', '1447687367', '2.18', '830')
+2017-07-03 13:59:41.749 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'O-RING', '1117694729', '1.72', '297')
+2017-07-03 13:59:41.749 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'O-RING', '1117694729', '1.72', '297')
+2017-07-03 13:59:41.751 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Harley Davidson+Sportster', 'OIL FILTER, BLACK', '1427719357', '15.09', '175')
+2017-07-03 13:59:41.751 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Harley Davidson+Sportster', 'OIL FILTER, BLACK', '1427719357', '15.09', '175')
+2017-07-03 13:59:41.753 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'OVAL HEAD SCREW', '4117672808', '2.95', '325')
+2017-07-03 13:59:41.753 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'OVAL HEAD SCREW', '4117672808', '2.95', '325')
+2017-07-03 13:59:41.755 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'PIN', '6717668644', '10.51', '47')
+2017-07-03 13:59:41.755 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'PIN', '6717668644', '10.51', '47')
+2017-07-03 13:59:41.757 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'PLASTIC BUSH', '5417674080', '2.14', '163')
+2017-07-03 13:59:41.758 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'PLASTIC BUSH', '5417674080', '2.14', '163')
+2017-07-03 13:59:41.760 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'PREFORMED SEAL', '1447687365', '8.16', '66')
+2017-07-03 13:59:41.760 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'PREFORMED SEAL', '1447687365', '8.16', '66')
+2017-07-03 13:59:41.762 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'REPAIR KIT FOR JERK DAMPER', '7727711036', '108.88', '9')
+2017-07-03 13:59:41.762 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'REPAIR KIT FOR JERK DAMPER', '7727711036', '108.88', '9')
+2017-07-03 13:59:41.763 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'RETAINER SPRING', '6717660163', '4.08', '138')
+2017-07-03 13:59:41.764 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'RETAINER SPRING', '6717660163', '4.08', '138')
+2017-07-03 13:59:41.766 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'RING', '1427677987', '3.51', '291')
+2017-07-03 13:59:41.766 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'RING', '1427677987', '3.51', '291')
+2017-07-03 13:59:41.768 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'ROLL PIN', '1412343108', '7.44', '114')
+2017-07-03 13:59:41.768 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'ROLL PIN', '1412343108', '7.44', '114')
+2017-07-03 13:59:41.770 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'SAFETY CLIP', '7119987611', '1.82', '593')
+2017-07-03 13:59:41.770 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'SAFETY CLIP', '7119987611', '1.82', '593')
+2017-07-03 13:59:41.772 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'SCREW', '6147713360', '0.99', '242')
+2017-07-03 13:59:41.772 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'SCREW', '6147713360', '0.99', '242')
+2017-07-03 13:59:41.774 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'SCREW CAP', '6116760285', '10.31', '114')
+2017-07-03 13:59:41.774 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'SCREW CAP', '6116760285', '10.31', '114')
+2017-07-03 13:59:41.776 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'SCREW PLUG', '1447687368', '2.72', '135')
+2017-07-03 13:59:41.776 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'SCREW PLUG', '1447687368', '2.72', '135')
+2017-07-03 13:59:41.778 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'SELECTOR ROD', '3418522956', '47.78', '21')
+2017-07-03 13:59:41.778 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'SELECTOR ROD', '3418522956', '47.78', '21')
+2017-07-03 13:59:41.780 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'SELF-LOCKING HEX NUT', '32727680378', '3.78', '238')
+2017-07-03 13:59:41.780 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'SELF-LOCKING HEX NUT', '32727680378', '3.78', '238')
+2017-07-03 13:59:41.782 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'SHEET METAL SCREW', '7119906189', '1.02', '686')
+2017-07-03 13:59:41.783 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'SHEET METAL SCREW', '7119906189', '1.02', '686')
+2017-07-03 13:59:41.785 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'SHIFT LEVER, SILVER', '3417688853', '169.15', '5')
+2017-07-03 13:59:41.785 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'SHIFT LEVER, SILVER', '3417688853', '169.15', '5')
+2017-07-03 13:59:41.787 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'SHIFT LEVER, SILVER', '3417689019', '83.95', '6')
+2017-07-03 13:59:41.787 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'SHIFT LEVER, SILVER', '3417689019', '83.95', '6')
+2017-07-03 13:59:41.789 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'SLEEVE', '32727673990', '9.05', '53')
+2017-07-03 13:59:41.789 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'SLEEVE', '32727673990', '9.05', '53')
+2017-07-03 13:59:41.792 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'SLEEVE', '1427677988', '2.42', '40')
+2017-07-03 13:59:41.792 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'SLEEVE', '1427677988', '2.42', '40')
+2017-07-03 13:59:41.794 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'SPRING RING SHELL', '7127696377', '5.09', '269')
+2017-07-03 13:59:41.795 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'SPRING RING SHELL', '7127696377', '5.09', '269')
+2017-07-03 13:59:41.797 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Ducati+Monster 696', 'STEERING DAMPER', '1427653149', '388.09', '5')
+2017-07-03 13:59:41.797 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Ducati+Monster 696', 'STEERING DAMPER', '1427653149', '388.09', '5')
+2017-07-03 13:59:41.799 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'STOPPER', '6712330765', '8.03', '84')
+2017-07-03 13:59:41.799 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'STOPPER', '6712330765', '8.03', '84')
+2017-07-03 13:59:41.801 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'STRAINER', '6147708314', '80.28', '5')
+2017-07-03 13:59:41.801 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'STRAINER', '6147708314', '80.28', '5')
+2017-07-03 13:59:41.803 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'SUPPORTING RING', '6141182903', '9.87', '104')
+2017-07-03 13:59:41.803 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'SUPPORTING RING', '6141182903', '9.87', '104')
+2017-07-03 13:59:41.805 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'TOOTH BELT', '3838521719', '510.12', '3')
+2017-07-03 13:59:41.805 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'TOOTH BELT', '3838521719', '510.12', '3')
+2017-07-03 13:59:41.807 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'TORX BOLT', '2317707433', '2.57', '646')
+2017-07-03 13:59:41.807 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'TORX BOLT', '2317707433', '2.57', '646')
+2017-07-03 13:59:41.809 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Suzuki+V-Strom', 'TORX BOLT', '3007690404', '2.14', '1465')
+2017-07-03 13:59:41.809 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Suzuki+V-Strom', 'TORX BOLT', '3007690404', '2.14', '1465')
+2017-07-03 13:59:41.811 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'TURN INDICATOR', '3138534352', '72.05', '19')
+2017-07-03 13:59:41.811 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'TURN INDICATOR', '3138534352', '72.05', '19')
+2017-07-03 13:59:41.814 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'TURN INDICATOR', '3138534353', '72.05', '5')
+2017-07-03 13:59:41.814 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'TURN INDICATOR', '3138534353', '72.05', '5')
+2017-07-03 13:59:41.817 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'VOLTAGE REGULATOR', '1312346550', '188.76', '8')
+2017-07-03 13:59:41.817 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'VOLTAGE REGULATOR', '1312346550', '188.76', '8')
+2017-07-03 13:59:41.819 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Triumph+Tiger', 'WASHER', '7727706469', '19.85', '27')
+2017-07-03 13:59:41.819 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Triumph+Tiger', 'WASHER', '7727706469', '19.85', '27')
+2017-07-03 13:59:41.821 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Honda+CB1100', 'WASHER', '7119907030', '6.95', '71')
+2017-07-03 13:59:41.821 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Honda+CB1100', 'WASHER', '7119907030', '6.95', '71')
+2017-07-03 13:59:41.823 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('Yamaha+Bolt', 'WASHER', '7119904164', '2.95', '380')
+2017-07-03 13:59:41.824 [main] DEBUG a00904649.Bcmc - insert into Inventory values('Yamaha+Bolt', 'WASHER', '7119904164', '2.95', '380')
+2017-07-03 13:59:41.826 [main] DEBUG a00904649.database.dao.InventoryDao - insert into Inventory values('BMW+R75/5', 'WOODRUFF KEY', '1272343243', '4.91', '580')
+2017-07-03 13:59:41.826 [main] DEBUG a00904649.Bcmc - insert into Inventory values('BMW+R75/5', 'WOODRUFF KEY', '1272343243', '4.91', '580')
+2017-07-03 13:59:41.829 [main] DEBUG a00904649.Bcmc - Creating the UI MainFrame
+2017-07-03 13:59:41.864 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the Look & Feel
+2017-07-03 13:59:51.972 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Customers menu list clicked and info message displayed
+2017-07-03 13:59:54.182 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Customers menu list clicked and info message displayed
+2017-07-03 13:59:56.264 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Service menu list clicked and info message displayed
+2017-07-03 13:59:57.330 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Total menu clikced and message displayed
+2017-07-03 13:59:57.330 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-03 13:59:59.489 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - By description menu item pressed.
+2017-07-03 13:59:59.489 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-03 13:59:59.495 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Inventory data sorted by Description
+2017-07-03 13:59:59.501 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Inventory report Dialog created
+2017-07-03 13:59:59.580 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Eventhandlers for InventoryReportDialog added
+2017-07-03 13:59:59.581 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-03 13:59:59.581 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-03 14:01:50.169 [main] INFO  a00904649.Bcmc - Start: 2017-07-03T21:01:50.124Z
+2017-07-03 14:01:50.170 [main] DEBUG a00904649.Bcmc - Loading database properties from db.properties
+2017-07-03 14:01:50.271 [main] DEBUG a00904649.Bcmc - Driver loaded
+2017-07-03 14:02:21.581 [main] INFO  a00904649.Bcmc - Start: 2017-07-03T21:02:21.539Z
+2017-07-03 14:02:21.582 [main] DEBUG a00904649.Bcmc - Loading database properties from db.properties
+2017-07-03 14:02:21.694 [main] DEBUG a00904649.Bcmc - Driver loaded
+2017-07-03 14:02:21.937 [main] DEBUG a00904649.Bcmc - Database connected
+2017-07-03 14:02:22.055 [main] DEBUG a00904649.Bcmc - Found the target table named: Inventory
+2017-07-03 14:02:22.055 [main] DEBUG a00904649.Bcmc - Creating the UI MainFrame
+2017-07-03 14:02:22.086 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the Look & Feel
+2017-07-03 14:02:24.279 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - By count menu item pressed.
+2017-07-03 14:02:24.279 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-03 14:02:24.318 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Inventory data sorted by Count
+2017-07-03 14:02:24.321 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Inventory report Dialog created
+2017-07-03 14:02:24.391 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Eventhandlers for InventoryReportDialog added
+2017-07-03 14:02:24.392 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-03 14:02:24.392 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-03 14:02:26.269 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-03 14:02:26.269 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-03 14:02:29.234 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - By count menu item pressed.
+2017-07-03 14:02:29.234 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-03 14:02:29.237 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Inventory data sorted by Count
+2017-07-03 14:02:29.237 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Inventory report Dialog created
+2017-07-03 14:02:29.240 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Eventhandlers for InventoryReportDialog added
+2017-07-03 14:02:29.240 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-03 14:02:29.240 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-03 14:02:30.637 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-03 14:02:30.638 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-03 14:02:32.483 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - By description menu item pressed.
+2017-07-03 14:02:32.484 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-03 14:02:32.487 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Inventory data sorted by Description
+2017-07-03 14:02:32.487 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Inventory report Dialog created
+2017-07-03 14:02:32.490 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Eventhandlers for InventoryReportDialog added
+2017-07-03 14:02:32.490 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-03 14:02:32.490 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-03 14:02:33.531 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-03 14:02:33.531 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-03 14:02:34.354 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-03 14:02:34.354 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-03 14:02:37.208 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Total menu clikced and message displayed
+2017-07-03 14:02:37.208 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-03 14:02:39.978 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Make menu item pressed.
+2017-07-03 14:02:43.079 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-03 14:02:43.080 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - no items matching with provided make name. all inventory item list displayed
+2017-07-03 14:02:43.082 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Inventory data filtered. only HONDA's product displayed
+2017-07-03 14:02:43.082 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Inventory report Dialog created
+2017-07-03 14:02:43.085 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Eventhandlers for InventoryReportDialog added
+2017-07-03 14:02:43.085 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-03 14:02:43.085 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:00.453 [main] INFO  a00904649.Bcmc - Start: 2017-07-07T02:42:00.360Z
+2017-07-06 19:42:00.455 [main] DEBUG a00904649.Bcmc - Loading database properties from db.properties
+2017-07-06 19:42:00.778 [main] DEBUG a00904649.Bcmc - Driver loaded
+2017-07-06 19:42:01.077 [main] DEBUG a00904649.Bcmc - Database connected
+2017-07-06 19:42:01.255 [main] DEBUG a00904649.Bcmc - Found the target table named: Inventory
+2017-07-06 19:42:01.255 [main] DEBUG a00904649.Bcmc - Creating the UI MainFrame
+2017-07-06 19:42:01.287 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the Look & Feel
+2017-07-06 19:42:07.550 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Customers menu list clicked and info message displayed
+2017-07-06 19:42:08.757 [AWT-EventQueue-0] INFO  a00904649.Bcmc - InventoryListDialog created
+2017-07-06 19:42:08.773 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-06 19:42:08.811 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger ASA-BOLT 7129907049 2.25 19
+2017-07-06 19:42:08.812 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt ASA-BOLT 7129907050 2.25 802
+2017-07-06 19:42:08.812 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 BALANCE ROD WITH ROCKER 1277702426 666.03 0
+2017-07-06 19:42:08.812 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 BALL PIN 7147202359 3.49 20
+2017-07-06 19:42:08.812 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger BEARING SHELL 1277690501 40.95 18
+2017-07-06 19:42:08.812 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster BELT PULLEY 7727706466 512.92 1
+2017-07-06 19:42:08.812 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 BELT WHEEL, REAR 7727678299 569.65 2
+2017-07-06 19:42:08.812 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom BELTGUARD BOTTOM INT 6628526813 41.52 6
+2017-07-06 19:42:08.812 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt BELTGUARD, BOTTOM EXT 6628526814 25.64 59
+2017-07-06 19:42:08.813 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 BELTGUARD, TOP EXTERIOR 7727686588 27.73 39
+2017-07-06 19:42:08.813 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster BINDING HEAD SCREW 6627711971 1.59 1038
+2017-07-06 19:42:08.813 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger BOLT 1277722182 89.54 10
+2017-07-06 19:42:08.813 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 BOWDEN CAB ADJUSTMENT SCREW 32727678100 18.31 20
+2017-07-06 19:42:08.813 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster BRACKET 1427653150 40.95 48
+2017-07-06 19:42:08.813 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 BRACKET, GENERATOR REGULATOR 1317690871 28.62 34
+2017-07-06 19:42:08.813 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 BULB 3217169203 5.15 114
+2017-07-06 19:42:08.813 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 BUSHING 3417680761 9.32 201
+2017-07-06 19:42:08.813 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt CIRCLIP 7119901545 2.09 600
+2017-07-06 19:42:08.814 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 CLAMP WITH MIRROR MOUNT 32728533246 30.02 44
+2017-07-06 19:42:08.814 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger CLIP NUT 1127070202 1.11 257
+2017-07-06 19:42:08.814 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 CLUTCH LEVER 32727705606 99.72 17
+2017-07-06 19:42:08.814 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 CLUTCH LEVER ASSEMBLY, ADJUS 32728523463 193.37 7
+2017-07-06 19:42:08.814 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 COLLAR BUSH 6717700591 13.85 19
+2017-07-06 19:42:08.814 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt COLLAR SCREW 7727689584 7.26 4
+2017-07-06 19:42:08.814 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom CONNECTING ROD BEARING 1247690500 32.75 73
+2017-07-06 19:42:08.814 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt CONNECTING ROD BOLT 1277688360 17.81 82
+2017-07-06 19:42:08.814 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom CONNECTING ROD BOLT 1247688359 15.76 167
+2017-07-06 19:42:08.814 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger CONNECTING ROD WITH BUSHING 1248542008 178.35 6
+2017-07-06 19:42:08.815 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom CONNECTION CABLE 1127699594 16.31 26
+2017-07-06 19:42:08.815 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 COUNTER NUT 32727678101 7.15 15
+2017-07-06 19:42:08.815 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger COUNTERSUNK HEAD SCREW 32727673989 5.34 262
+2017-07-06 19:42:08.815 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt COVER FOR FUEL PUMP 6147693055 28.64 36
+2017-07-06 19:42:08.815 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster FEED PIPE 6147708313 41.22 10
+2017-07-06 19:42:08.815 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 FILLISTER HEAD SCREW 1117653180 2.57 1134
+2017-07-06 19:42:08.815 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger FILLISTER-HEAD SCREW 32722333066 3.14 248
+2017-07-06 19:42:08.815 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 FLAT NUT 6637659955 2.45 583
+2017-07-06 19:42:08.815 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 FOOTPEG PLATE RIGHT 6718534960 319.95 5
+2017-07-06 19:42:08.815 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom FOOTREST PLATE LEFT 6718534959 331.18 7
+2017-07-06 19:42:08.815 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 FOOTREST, LEFT 6717700913 80.31 13
+2017-07-06 19:42:08.816 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 FOOTREST, RIGHT 6717700914 80.31 1
+2017-07-06 19:42:08.816 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom FUEL PUMP UNIT WITH LEVER SE 6147723935 504.35 1
+2017-07-06 19:42:08.816 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 FUEL PUMP, ELECTRONIC 6148523262 192.86 8
+2017-07-06 19:42:08.816 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom GASKET 6117677883 11.23 15
+2017-07-06 19:42:08.816 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger HEAT EXCHANGER, BLACK 1538524136 195.02 1
+2017-07-06 19:42:08.816 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 HEX NUT 7119904920 2.37 465
+2017-07-06 19:42:08.816 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster HOSE 7217686971 7.79 279
+2017-07-06 19:42:08.816 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster HOSE CLAMP 1731277848 6.14 264
+2017-07-06 19:42:08.816 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 HOSE RUNNING METER 3547709426 35.56 18
+2017-07-06 19:42:08.816 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom ISA SCREW 7129907374 5.61 198
+2017-07-06 19:42:08.816 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 ISA SCREW 7129907375 5.02 444
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger ISA SCREW 7129905601 3.53 935
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster ISA SCREW 7129904260 3.44 580
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 ISA SCREW 7129904261 3.44 323
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 ISA SCREW 7129906038 3.43 163
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt ISA SCREW 7129905769 2.63 523
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 ISA SCREW 7129904700 2.48 795
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 ISA SCREW 7129903807 2.27 663
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger ISA SCREW WITH WASHER 7129905537 2.68 281
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 LAMP LENS 3138534351 18.62 44
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom LAMP LENS 3138534350 18.61 61
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom MICROSWITCH 61317671111 36.42 24
+2017-07-06 19:42:08.817 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 NIPPLE 1447687378 37.75 2
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt O-RING 1447687367 2.18 830
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom O-RING 1117694729 1.72 297
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Harley Davidson+Sportster OIL FILTER, BLACK 1427719357 15.09 175
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 OVAL HEAD SCREW 4117672808 2.95 325
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom PIN 6717668644 10.51 47
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger PLASTIC BUSH 5417674080 2.14 163
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 PREFORMED SEAL 1447687365 8.16 66
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 REPAIR KIT FOR JERK DAMPER 7727711036 108.88 9
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 RETAINER SPRING 6717660163 4.08 138
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger RING 1427677987 3.51 291
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom ROLL PIN 1412343108 7.44 114
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt SAFETY CLIP 7119987611 1.82 593
+2017-07-06 19:42:08.818 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger SCREW 6147713360 0.99 242
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom SCREW CAP 6116760285 10.31 114
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 SCREW PLUG 1447687368 2.72 135
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger SELECTOR ROD 3418522956 47.78 21
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 SELF-LOCKING HEX NUT 32727680378 3.78 238
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 SHEET METAL SCREW 7119906189 1.02 686
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger SHIFT LEVER, SILVER 3417688853 169.15 5
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom SHIFT LEVER, SILVER 3417689019 83.95 6
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 SLEEVE 32727673990 9.05 53
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt SLEEVE 1427677988 2.42 40
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom SPRING RING SHELL 7127696377 5.09 269
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Ducati+Monster 696 STEERING DAMPER 1427653149 388.09 5
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 STOPPER 6712330765 8.03 84
+2017-07-06 19:42:08.819 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt STRAINER 6147708314 80.28 5
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 SUPPORTING RING 6141182903 9.87 104
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom TOOTH BELT 3838521719 510.12 3
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt TORX BOLT 2317707433 2.57 646
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Suzuki+V-Strom TORX BOLT 3007690404 2.14 1465
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger TURN INDICATOR 3138534352 72.05 19
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt TURN INDICATOR 3138534353 72.05 5
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 VOLTAGE REGULATOR 1312346550 188.76 8
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Triumph+Tiger WASHER 7727706469 19.85 27
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Honda+CB1100 WASHER 7119907030 6.95 71
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item Yamaha+Bolt WASHER 7119904164 2.95 380
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel add item BMW+R75/5 WOODRUFF KEY 1272343243 4.91 580
+2017-07-06 19:42:08.820 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Event Handlers add for InventoryListDialog
+2017-07-06 19:42:08.843 [AWT-EventQueue-0] DEBUG a00904649.ui.UIController - InventoryListDialog created
+2017-07-06 19:42:10.752 [AWT-EventQueue-0] DEBUG a00904649.ui.UIController - Item selected: 0
+2017-07-06 19:42:10.753 [AWT-EventQueue-0] INFO  a00904649.ui.InventoryDialog - Inventory Dialog created
+2017-07-06 19:42:10.821 [AWT-EventQueue-0] DEBUG a00904649.ui.InventoryDialog - setting the InventoryDialog with Iventory item info
+2017-07-06 19:42:15.547 [AWT-EventQueue-0] DEBUG a00904649.ui.InventoryDialog - Inventory item info updated
+2017-07-06 19:42:15.552 [AWT-EventQueue-0] DEBUG a00904649.ui.UIController - Updating item: 7129907049
+2017-07-06 19:42:15.552 [AWT-EventQueue-0] DEBUG a00904649.database.dao.InventoryDao - UPDATE Inventory set motorcycle_id='Triumph+Tiger', description='ASA-BOLT', part_number='7129907049', price='2.25', quantiry='20' WHERE part_number='7129907049'
+2017-07-06 19:42:15.552 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - UPDATE Inventory set motorcycle_id='Triumph+Tiger', description='ASA-BOLT', part_number='7129907049', price='2.25', quantiry='20' WHERE part_number='7129907049'
+2017-07-06 19:42:15.594 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - InventoryListModel update item Triumph+Tiger ASA-BOLT 7129907049 2.25 20
+2017-07-06 19:42:15.594 [AWT-EventQueue-0] DEBUG a00904649.ui.UIController - Item 7129907049 updated
+2017-07-06 19:42:18.029 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Total menu clikced and message displayed
+2017-07-06 19:42:18.029 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-06 19:42:20.000 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - By description menu item pressed.
+2017-07-06 19:42:20.000 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-06 19:42:20.002 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Inventory data sorted by Description
+2017-07-06 19:42:20.004 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Inventory report Dialog created
+2017-07-06 19:42:20.020 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Eventhandlers for InventoryReportDialog added
+2017-07-06 19:42:20.021 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:20.021 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:21.196 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:21.196 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:21.682 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:21.682 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:22.081 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:22.081 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:24.294 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Make menu item pressed.
+2017-07-06 19:42:26.956 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-06 19:42:26.958 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - no items matching with provided make name. all inventory item list displayed
+2017-07-06 19:42:26.959 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Inventory data filtered. only HONDA's product displayed
+2017-07-06 19:42:26.960 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Inventory report Dialog created
+2017-07-06 19:42:26.962 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Eventhandlers for InventoryReportDialog added
+2017-07-06 19:42:26.962 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:26.962 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:34.378 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:34.378 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:35.130 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:35.130 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:35.765 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:35.765 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:36.609 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:36.609 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:37.121 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:37.121 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:42.954 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Make menu item pressed.
+2017-07-06 19:42:45.615 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-07-06 19:42:45.617 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - no items matching with provided make name. all inventory item list displayed
+2017-07-06 19:42:45.617 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Inventory data filtered. only HONDA's product displayed
+2017-07-06 19:42:45.618 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Inventory report Dialog created
+2017-07-06 19:42:45.620 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Eventhandlers for InventoryReportDialog added
+2017-07-06 19:42:45.620 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:45.620 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:47.348 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:47.348 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:48.089 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:48.089 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:48.640 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:48.640 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:49.075 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:49.075 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:49.499 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:49.499 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:49.689 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:49.689 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:49.857 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:49.857 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:50.022 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:50.022 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:50.176 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:50.176 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:50.523 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:50.523 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-07-06 19:42:50.666 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-07-06 19:42:50.666 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
+2017-12-26 17:35:36.495 [main] INFO  a00904649.Bcmc - Start: 2017-12-27T01:35:36.452Z
+2017-12-26 17:35:36.497 [main] DEBUG a00904649.Bcmc - Loading database properties from db.properties
+2017-12-26 17:35:36.628 [main] DEBUG a00904649.Bcmc - Driver loaded
+2017-12-26 17:35:36.772 [main] DEBUG a00904649.Bcmc - Database connected
+2017-12-26 17:35:36.904 [main] DEBUG a00904649.Bcmc - Found the target table named: Inventory
+2017-12-26 17:35:36.904 [main] DEBUG a00904649.Bcmc - Creating the UI MainFrame
+2017-12-26 17:35:36.942 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the Look & Feel
+2017-12-26 17:35:43.262 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Customers menu list clicked and info message displayed
+2017-12-26 17:35:45.305 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Service menu list clicked and info message displayed
+2017-12-26 17:35:46.638 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Total menu clikced and message displayed
+2017-12-26 17:35:46.638 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-12-26 17:35:48.872 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - By description menu item pressed.
+2017-12-26 17:35:48.873 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - SELECT * FROM Inventory
+2017-12-26 17:35:48.876 [AWT-EventQueue-0] INFO  a00904649.ui.UIController - Inventory data sorted by Description
+2017-12-26 17:35:48.877 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Inventory report Dialog created
+2017-12-26 17:35:48.953 [AWT-EventQueue-0] INFO  a00904649.Bcmc - Eventhandlers for InventoryReportDialog added
+2017-12-26 17:35:48.954 [AWT-EventQueue-0] INFO  a00904649.Bcmc - data setted for InventoryReportDialog
+2017-12-26 17:35:48.954 [AWT-EventQueue-0] DEBUG a00904649.Bcmc - Setting the inventory items
